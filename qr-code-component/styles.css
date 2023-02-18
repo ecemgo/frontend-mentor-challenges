@@ -17,7 +17,6 @@ body {
 }
 
 .qr-code-box {
-  /* top: 160px; */
   /* position: absolute; */
   background: white;
   padding: 15px;
@@ -41,7 +40,7 @@ body {
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 1.3rem;
   text-align: center;
   font-weight: 700px;
   color: #1f3251;
@@ -50,7 +49,7 @@ h1 {
 }
 
 p {
-  font-size: 1em;
+  font-size: 1rem; // use 'rem' instead of pixel in font-size
   font-weight: 400px;
   text-align: center;
   color: #7b879d;
@@ -60,11 +59,7 @@ p {
 
 .attribution {
   text-align: center;
-  font-size: 1em;
-  /* margin-top: 680px;
-  bottom: 0;
-  left: 0;
-  right: 0; */
+  font-size: 1rem;
 }
 
 .attribution a {
