@@ -17,7 +17,7 @@ body {
 }
 
 .qr-code-box {
-  /* top: 100px; */
+  top: 160px;
   position: absolute;
   background: white;
   border: 1px solid white;
@@ -62,7 +62,7 @@ p {
 .attribution {
   text-align: center;
   font-size: 15px;
-  margin-top: 660px;
+  margin-top: 680px;
   bottom: 0;
   left: 0;
   right: 0;
