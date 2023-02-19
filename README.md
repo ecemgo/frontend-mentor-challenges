@@ -20,6 +20,6 @@ You can reach the challenges on the Frontend Mentor and my solutions to them bel
 <br>
 
 |  #  | Solutions                                                                                                               | Challenges                                                                                                      |
-| :-: | ----------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --- |
+| :-: | ----------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
 | 01  | [QR Code Component](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/qr-code-component)                   | [Here](https://www.frontendmentor.io/solutions/responsive-qr-code-box-using-vanilla-css-and-flexbox-ByUgq_WyGU) |
-| 02  | [NFT Preview Card Component](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/nft-preview-card-component) | [here](https://www.frontendmentor.io/solutions/responsive-nft-preview-card-by-using-tailwind-css-k0tys-rxYQ)    |     |
+| 02  | [NFT Preview Card Component](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/nft-preview-card-component) | [Here](https://www.frontendmentor.io/solutions/responsive-nft-preview-card-by-using-tailwind-css-k0tys-rxYQ)    |
