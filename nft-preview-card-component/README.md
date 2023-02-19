@@ -23,23 +23,25 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- [Solution URL](https://github.com/ecemgo/Frontend-Mentor-Challenges/tree/main/qr-code-component)
-- [Live Site URL](https://ecemgo-qr-code-component.netlify.app/)
+- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/nft-preview-card-component)
+- [Live Site URL](https://ecemgo-nft-preview-card.netlify.app/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- Tailwind CSS
+- CSS custom properties
+- Tailwind CSS - Framework
 - Flexbox
 
 ### What I learned
 
-In this project, I focused on the following features of Tailwind:
+In this project, I focused on the following features of Tailwind CSS:
 
 - How to make hover effect
 - How to use transition duration
+- Using shadows on colored backgrounds
 - Using flexbox
 
 ### Useful resources
