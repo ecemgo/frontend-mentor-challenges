@@ -19,6 +19,6 @@ module.exports = {
         body: ["Outfit", "sans-serif"],
       },
     },
+    plugins: [],
   },
-  plugins: [],
 };

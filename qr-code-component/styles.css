@@ -57,11 +57,42 @@ p {
   margin-bottom: 25px;
 }
 
-.attribution {
-  text-align: center;
-  font-size: 1rem;
+.content {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
-.attribution a {
-  color: #3e52a3;
+.profile {
+  display: block;
+  border-radius: 50px;
+  width: 64px;
+  height: 64px;
+}
+
+.hide {
+  display: none;
+  width: auto;
+  padding: 10px;
+  border-radius: 20px;
+  font-family: Outfit;
+  transition: all 1s ease-out;
+  background: #fff;
+}
+
+.hide a {
+  text-decoration: none;
+  color: #24538a;
+  -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+  transition: color 1s; /* For modern browsers */
+}
+
+.hide a:hover {
+  text-decoration: none;
+  color: #5ae2c0;
+}
+
+.content:hover .hide {
+  display: block;
 }
