@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Live Site URL](https://your-live-site-url.com)
+- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/faq-accordion-card)
+- [Live Site URL](https://ecemgo-faq-accordion-card.netlify.app/)
 
 ## Working on the project
 
@@ -80,3 +80,4 @@ Note: Apart from the documentation of Tailwind CSS, a `public` directory was cre
 - Website - [ecemgo.com](https://www.ecemgo.com/)
 - Frontend Mentor - [@ecemgo](https://www.frontendmentor.io/profile/ecemgo)
 - Twitter - [@ecemgo](https://twitter.com/ecemgo)
+- Medium - [@ecemgo](https://medium.com/@ecemgo)
