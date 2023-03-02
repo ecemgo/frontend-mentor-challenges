@@ -54,3 +54,4 @@ In this project, I focused on the following features of Tailwind CSS:
 - Website - [ecemgo.com](https://www.ecemgo.com/)
 - Frontend Mentor - [@ecemgo](https://www.frontendmentor.io/profile/ecemgo)
 - Twitter - [@ecemgo](https://twitter.com/ecemgo)
+- Medium - [@ecemgo](https://medium.com/@ecemgo)
