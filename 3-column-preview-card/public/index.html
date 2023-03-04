@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="author" content="Ecem Gokdogan" />
+  <meta name="keywords" content="Frontend Mentor, Frontend, Mentor, 3 column preview card, 3 column preview card tailwind, Ecem Gokdogan, ecemgo, FrontendMentor.io, Ecem Gokdogan Frontend, tailwind css, flowbite"/>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | 3-column preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-light-gray">
+
+  <main class="min-h-screen flex justify-center items-center">
+    <div class="flex flex-col sm:flex-row lg:mx-80 mx-4 lg:h-[450px] h-auto shadow-xl">
+      <div class="bg-orange rounded-t-md sm:rounded-l-md sm:rounded-tr-none sm:mt-0 mt-12">
+        <img class="img-primary" src="images/icon-sedans.svg" alt="sedans">
+        <h2>SEDANS</h2>
+        <p class="font-legend">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
+          or on your next road trip.</p>
+        <button class="btn font-lexend text-orange hover:bg-orange">Learn More</button>
+      </div>
+      
+      <div class="bg-cyan">
+        <img class="img-primary" src="images/icon-suvs.svg" alt="">
+        <h2>SUVS</h2>
+        <p class="font-legend">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
+          and off-road adventures.</p>
+        <button class="btn font-lexend text-cyan hover:bg-cyan">Learn More</button>
+      </div>
+      
+      <div class="bg-dark-cyan rounded-b-md sm:rounded-r-md sm:rounded-bl-none sm:mb-0 mb-12">
+        <img class="img-primary" src="images/icon-luxury.svg" alt="">
+        <h2>LUXURY</h2>
+        <p class="font-legend">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
+          rental and arrive in style.</p>
+        <button class="btn font-lexend text-dark-cyan hover:bg-dark-cyan">Learn More</button>
+      </div>
+    </div>
+  
+  </main>
+  
+   <!-- Start of the footer -->
+   <footer class="group fixed right-4 bottom-4 w-16 h-16 invisible md:visible">
+    <img class="rounded-full" src="https://avatars.githubusercontent.com/u/13468728?v=4" alt="ecem gokdogan">
+    <small class="md:opacity-0 group-hover:opacity-100 opacity-100 fixed right-24 bottom-6 w-auto p-2 bg-dark-cyan text-white rounded-lg shadow-xl transition-opacity duration-1000 z-50">
+      Challenge by <a href="https://www.frontendmentor.io" target="_blank" class="text-white font-bold hover:text-orange transition-colors duration-1000">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/ecemgo" target="_blank" class="text-white font-bold hover:text-orange transition-colors duration-1000">Ecem Gokdogan</a>
+    </small>
+  </footer>
+  <!-- End of the footer -->
+</body>
+</html>
