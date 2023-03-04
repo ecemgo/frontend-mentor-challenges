@@ -80,4 +80,3 @@ Note: Apart from the documentation of Tailwind CSS, a `public` directory was cre
 - Website - [ecemgo.com](https://www.ecemgo.com/)
 - Frontend Mentor - [@ecemgo](https://www.frontendmentor.io/profile/ecemgo)
 - Twitter - [@ecemgo](https://twitter.com/ecemgo)
-- Medium - [@ecemgo](https://medium.com/@ecemgo)
