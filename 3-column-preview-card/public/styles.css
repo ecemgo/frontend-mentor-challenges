@@ -514,8 +514,8 @@ video {
 }
 
 .img-primary {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   margin-top: 1.5rem;
   margin-bottom: 2rem;
   height: 2.25rem;
@@ -524,16 +524,16 @@ video {
 
 @media (min-width: 375px) {
   .img-primary {
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
     margin-top: 3rem;
     margin-bottom: 2rem;
   }
 }
 
 h2 {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-family: Big Shoulders Display, cursive;
@@ -546,15 +546,17 @@ h2 {
 
 @media (min-width: 375px) {
   h2 {
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
     margin-bottom: 1.5rem;
   }
 }
 
 p {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 1.75rem;
+  margin-bottom: 1.5rem;
   text-align: left;
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -565,17 +567,24 @@ p {
 
 @media (min-width: 375px) {
   p {
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-    margin-bottom: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (min-width: 960px) {
+  p {
+    padding-bottom: 2.75rem;
   }
 }
 
 .btn {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  height: 2.75rem;
+  width: 9rem;
   border-radius: 9999px;
   border-width: 2px;
   border-style: solid;
@@ -591,8 +600,8 @@ p {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 700ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn:hover {
@@ -602,9 +611,9 @@ p {
 
 @media (min-width: 375px) {
   .btn {
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-    margin-bottom: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 4rem;
   }
 }
 
@@ -636,17 +645,18 @@ p {
   z-index: 50;
 }
 
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
-.mb-12 {
-  margin-bottom: 3rem;
+.my-16 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
-.mt-12 {
-  margin-top: 3rem;
+.box-border {
+  box-sizing: border-box;
 }
 
 .flex {
@@ -655,10 +665,6 @@ p {
 
 .h-16 {
   height: 4rem;
-}
-
-.h-auto {
-  height: auto;
 }
 
 .min-h-screen {
@@ -671,6 +677,10 @@ p {
 
 .w-auto {
   width: auto;
+}
+
+.max-w-md {
+  max-width: 28rem;
 }
 
 .flex-col {
@@ -806,14 +816,6 @@ p {
 }
 
 @media (min-width: 375px) {
-  .sm\:mb-0 {
-    margin-bottom: 0px;
-  }
-
-  .sm\:mt-0 {
-    margin-top: 0px;
-  }
-
   .sm\:flex-row {
     flex-direction: row;
   }
@@ -842,18 +844,11 @@ p {
     visibility: visible;
   }
 
+  .md\:max-w-\[950px\] {
+    max-width: 950px;
+  }
+
   .md\:opacity-0 {
     opacity: 0;
-  }
-}
-
-@media (min-width: 1440px) {
-  .lg\:mx-80 {
-    margin-left: 20rem;
-    margin-right: 20rem;
-  }
-
-  .lg\:h-\[450px\] {
-    height: 450px;
   }
 }
