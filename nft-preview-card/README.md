@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/nft-preview-card-component)
+- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/nft-preview-card)
 - [Live Site URL](https://ecemgo-nft-preview-card.netlify.app/)
 
 ## My process
