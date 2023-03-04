@@ -16,9 +16,8 @@ In this repository, there are some solutions to [the challenges on Frontend Ment
 -->
 
 <br>
-You can reach the challenges on the Frontend Mentor and my solutions to them below.
+<p>You can reach the challenges on the Frontend Mentor and my solutions to them below.</p>
 
-<br>
 
 |  #  | Solutions                                                                                                               | Challenges                                                                                                      |
 | :-: | ----------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
