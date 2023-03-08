@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/advice-generator-app)
 - [Live Site URL](https://ecemgo-advice-generator-app.netlify.app/)
 
 ## My process
