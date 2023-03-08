@@ -36,8 +36,7 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Tailwind CSS - Framework
+- Tailwind CSS
 - Flexbox
 
 ### What I learned

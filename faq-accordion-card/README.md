@@ -64,10 +64,9 @@ Note: Apart from the documentation of Tailwind CSS, a `public` directory was cre
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
 - Tailwind CSS
 - Flowbite
+- Flexbox
 
 ### Useful resources
 

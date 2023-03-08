@@ -1,0 +1,155 @@
+body {
+    font-family: "Manrope", sans-serif;
+    background-color: rgb(31, 38, 50);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5em;
+    background-color: rgb(50, 58, 73);
+    color: rgb(206, 227, 233);
+    max-width: 17em;
+    min-width: auto;
+    padding: 1.875em;
+    font-size: 1.75em;
+}
+
+#adviceno {
+    font-size: 0.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    color: rgb(82, 255, 168);
+}
+
+#advice {
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 1.2em;
+}
+
+img .desktop {
+    position: absolute;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+
+.btn {
+    position: absolute;
+    background-color:rgb(82, 255, 168);
+    background-position: 50%;
+    width: 2.2em;
+    height: 2.2em;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.3s;
+    bottom: -1em;
+    
+}
+
+.btn:hover {
+    box-shadow: -1px 1px 25px 12px rgba(82, 255, 168, 0.5);
+    -webkit-box-shadow: -1px 1px 25px 12px rgba(82, 255, 168, 0.5);
+    -moz-box-shadow: -1px 1px 25px 12px rgba(82, 255, 168, 0.5);
+    transition: all ease-in-out 0.3s;
+}
+
+.profile {
+    display: block;
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0.3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.hide {
+    display: none;
+    width: auto;
+    padding: 0.5em;
+    border-radius: 1.2em;
+    font-family: Outfit;
+    transition: all 1s ease-out;
+    background: #fff;
+}
+
+.hide a {
+    text-decoration: none;
+    color: #24538a;
+    -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+    transition: color 1s; /* For modern browsers */
+}
+
+.hide a:hover {
+    text-decoration: none;
+    color: #52ffa8;
+}
+
+.content:hover .hide {
+    display: block;
+}
+
+@media screen and (max-width: 615px) {
+  .container {
+    max-width: 14em;
+  }
+  .line img {
+    width: 15em;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .container {
+    max-width: 12em;
+    padding: 1em;
+  }
+
+  #advice {
+    margin-bottom: 0.9em;
+  }
+
+  .line img {
+    width: 11em;
+    height: 0.5em;
+    margin-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .container {
+    max-width: 10.5em;
+    padding: 0.7em;
+  }
+
+  .line img {
+    width: 10em;
+    margin-bottom: 1em;
+  }
+}
