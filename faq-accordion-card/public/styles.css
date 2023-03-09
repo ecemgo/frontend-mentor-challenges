@@ -1828,6 +1828,10 @@ input:checked + .toggle-bg {
     margin-top: 1rem;
   }
 
+  .xl\:ml-4 {
+    margin-left: 1rem;
+  }
+
   .xl\:block {
     display: block;
   }

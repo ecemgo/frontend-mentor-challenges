@@ -43,21 +43,25 @@ Users should be able to:
 
 ### Installing the project
 
-##### The node packages used:
+#### The node packages used:
 
 - tailwindcss: v3.2.7
 - flowbite: v1.6.3
 
-##### Install the node packages:
+#### Install the node packages:
 
-- Run command to install project dependencies
-  `npm install`
+- Run command to install project dependencies respectively:
 
-##### Run tests and watch for changes:
+  - `cd faq-accordion-card`
+  - `npm install`
+
+**Note:** You need to type the command like this since the `faq-accordion-card` folder is a child of the `frontend-mentor-challenges` folder.
+
+#### Run tests and watch for changes:
 
 `npx tailwindcss -i ./src/styles.css -o ./public/styles.css --watch`
 
-Note: Apart from the documentation of Tailwind CSS, a `public` directory was created instead of a `dist` directory, and `styles.css` was created instead of `input.css` and `output.css` in the project root; the files in the directory are ready for deployment.
+**Note:** Apart from the documentation of Tailwind CSS, a `public` directory was created instead of a `dist` directory, and `styles.css` was created instead of `input.css` and `output.css` in the project root; the files in the directory are ready for deployment.
 
 ## My process
 

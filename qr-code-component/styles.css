@@ -58,6 +58,9 @@ p {
 }
 
 .content {
+  position: fixed;
+  bottom: 0;
+  right: 0;
   margin: 5px;
   display: flex;
   flex-direction: row;
@@ -66,9 +69,9 @@ p {
 
 .profile {
   display: block;
-  border-radius: 50px;
-  width: 64px;
-  height: 64px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
 }
 
 .hide {
@@ -79,6 +82,7 @@ p {
   font-family: Outfit;
   transition: all 1s ease-out;
   background: #fff;
+  font-size: 12px;
 }
 
 .hide a {
