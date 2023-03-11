@@ -60,7 +60,7 @@ main {
 .intro-content h1 {
   width: fit-content;
   color: var(--dark-magenta);
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: var(--fw-700);
   margin: 0 2rem 1.2rem 0;
 }
@@ -218,6 +218,11 @@ main {
     margin: 1rem;
   }
 
+  .rated-item {
+    font-size: 0.9rem;
+    min-width: 25rem;
+  }
+
   .intro-rating {
     margin-top: 3rem;
   }
@@ -232,21 +237,16 @@ main {
     margin-top: 4rem;
   }
 
-  .rated-item {
-    font-size: 0.9rem;
-    max-width: 25rem;
-  }
-
   .rating-1 {
-    margin-left: 2rem;
+    margin-left: 0;
   }
 
   .rating-2 {
-    margin-left: 5rem;
+    margin-left: 3rem;
   }
 
   .rating-3 {
-    margin-right: 0;
+    margin-left: 5rem;
   }
 
   .box-container {
