@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="author" content="Ecem Gokdogan" />
+  <meta name="keywords" content="Frontend Mentor, Frontend, Mentor, order summary component, order summary component tailwind, Ecem Gokdogan, ecemgo, FrontendMentor.io, Ecem Gokdogan Frontend, tailwind css, flowbite"/>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Order Summary Card</title>
+
+</head>
+<body class="bg-pale-blue box-border relative">
+
+  <section>
+    <img class="absolute -z-10 w-full h-2/4 top-0 left-0" src="images/pattern-background-desktop.svg" alt="">
+  </section>
+  <main class="min-h-screen flex flex-col justify-center items-center z-0">
+    <div class="bg-white max-w-sm w-4/5 rounded-2xl">
+      <div>
+        <img class="rounded-t-2xl" src="images/illustration-hero.svg" alt="">
+      </div>
+      <div class="bg-white">
+        <h1 class="text-center text-2xl text-dark-blue font-redhat font-extrabold mt-6 mb-3">Order Summary</h1>
+        <p class="text-center text-sm text-desaturated-blue font-redhat mx-8">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+        <div class="bg-very-pale-blue rounded-lg flex flex-row justify-center items-center sm:mx-12 mx-6 my-5 py-3">
+          <div class="sm:w-12 sm:mh-12 px-1">
+            <img src="images/icon-music.svg" alt="">
+          </div>
+          <div class="sm:ml-1 sm:mr-14">
+            <h5 class="text-sm font-redhat font-bold px-1">Annual Plan</h5>
+            <p class="text-sm font-redhat text-desaturated-blue px-1">$59.99/year</p>
+          </div>
+          <p class="text-xs text-bright-blue font-redhat font-extrabold underline decoration-solid cursor-pointer transition-opacity duration-500 hover:opacity-70 px-1">Change</p>
+        </div>
+        <div class="bg-bright-blue rounded-lg flex flex-row justify-center items-center cursor-pointer transition-opacity duration-500 hover:opacity-70 sm:mx-12 mx-6 h-10 my-7 drop-shadow-2xl">
+          <button class="font-redhat text-center font-bold text-white text-xs">Proceed to Payment</button>
+        </div>
+        <p class="text-center text-xs text-desaturated-blue font-redhat font-extrabold cursor-pointer transition-opacity duration-500 hover:text-dark-blue mb-10">Cancel Order</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="group fixed right-0 bottom-0 w-12 h-12 shadow-xl">
+    <img class="rounded-full" src="https://avatars.githubusercontent.com/u/13468728?v=4" alt="ecem gokdogan">
+    <small class="font-redhat group-hover:opacity-100 opacity-0 fixed right-12 bottom-2 w-auto p-2 bg-card-blue text-desaturated-blue rounded-lg shadow-xl transition-opacity duration-1000 z-50">
+      Challenge by <a href="https://www.frontendmentor.io" target="_blank" class="text-desaturated-blue font-bold hover:text-bright-blue transition-colors duration-1000">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/ecemgo" target="_blank" class="text-desaturated-blue font-bold hover:text-bright-blue transition-colors duration-1000">Ecem Gokdogan</a>
+    </small>
+  </footer>
+
+</body>
+</html>
