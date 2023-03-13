@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/order-summary-component)
 - [Live Site URL](https://ecemgo-order-summary.netlify.app/)
 
 ## My process
