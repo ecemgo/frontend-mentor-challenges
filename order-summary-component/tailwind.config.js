@@ -10,6 +10,9 @@ module.exports = {
       xl: "1440px",
     },
     extend: {
+      backgroundImage: {
+        "desktop-pattern": "url(public/images/pattern-background-desktop.svg')",
+      },
       colors: {
         "pale-blue": "hsl(225, 100%, 94%)",
         "bright-blue": "hsl(245, 75%, 52%)",

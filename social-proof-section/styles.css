@@ -150,7 +150,7 @@ main {
   height: 3rem;
 }
 
-.user-info h3 {
+.user-info h2 {
   margin-top: 3rem;
   margin-bottom: 0;
   color: var(--white);

@@ -971,9 +971,9 @@ input:checked + .toggle-bg {
   }
 }
 
-@media (min-width: 976px) {
+@media (min-width: 1024px) {
   .container {
-    max-width: 976px;
+    max-width: 1024px;
   }
 }
 
@@ -1030,12 +1030,12 @@ input:checked + .toggle-bg {
   bottom: 0.25rem;
 }
 
-.bottom-4 {
-  bottom: 1rem;
+.bottom-2 {
+  bottom: 0.5rem;
 }
 
-.bottom-6 {
-  bottom: 1.5rem;
+.bottom-4 {
+  bottom: 1rem;
 }
 
 .bottom-\[60px\] {
@@ -1050,12 +1050,12 @@ input:checked + .toggle-bg {
   right: 0px;
 }
 
-.right-24 {
-  right: 6rem;
+.right-14 {
+  right: 3.5rem;
 }
 
-.right-4 {
-  right: 1rem;
+.right-2 {
+  right: 0.5rem;
 }
 
 .top-0 {
@@ -1154,8 +1154,8 @@ input:checked + .toggle-bg {
   display: none;
 }
 
-.h-16 {
-  height: 4rem;
+.h-12 {
+  height: 3rem;
 }
 
 .h-4 {
@@ -1186,8 +1186,8 @@ input:checked + .toggle-bg {
   width: 91.666667%;
 }
 
-.w-16 {
-  width: 4rem;
+.w-12 {
+  width: 3rem;
 }
 
 .w-4 {
@@ -1800,36 +1800,32 @@ input:checked + .toggle-bg {
 }
 
 @media (min-width: 768px) {
-  .md\:visible {
-    visibility: visible;
-  }
-
   .md\:top-14 {
     top: 3.5rem;
   }
-
-  .md\:opacity-0 {
-    opacity: 0;
-  }
 }
 
-@media (min-width: 976px) {
+@media (min-width: 1024px) {
+  .lg\:visible {
+    visibility: visible;
+  }
+
   .lg\:top-16 {
     top: 4rem;
   }
 }
 
 @media (min-width: 1440px) {
+  .xl\:ml-4 {
+    margin-left: 1rem;
+  }
+
   .xl\:mt-0 {
     margin-top: 0px;
   }
 
   .xl\:mt-4 {
     margin-top: 1rem;
-  }
-
-  .xl\:ml-4 {
-    margin-left: 1rem;
   }
 
   .xl\:block {
