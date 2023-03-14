@@ -14,7 +14,7 @@
 
   --fs-300: 0.6875rem;
   --fs-400: 0.8125rem;
-  --fs-500: 1.1rem;
+  --fs-500: 1.3rem;
 }
 
 *,
@@ -45,7 +45,7 @@ body {
 }
 
 .msg {
-  opacity: 60%;
+  opacity: 70%;
 }
 
 .bg-primary-400 .msg {
@@ -125,7 +125,7 @@ h1 {
 .testimonial.quote {
   background-image: url("images/bg-pattern-quotation.svg");
   background-repeat: no-repeat;
-  background-position: top right 10%;
+  background-position: top right 15%;
 }
 
 .testimonial img {
