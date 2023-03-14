@@ -142,8 +142,10 @@ h1 {
 }
 
 .content {
-  display: grid;
-  grid-template-columns: 1fr;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0.3em;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -190,4 +192,3 @@ h1 {
     grid-row: 1 / 3;
   }
 }
-
