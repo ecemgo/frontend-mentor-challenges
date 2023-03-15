@@ -74,7 +74,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Tailwind CSS](https://tailwindcss.com/docs/installation) - The documentation of Tailwind CSS was used to give the features to the template.
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation) - The documentation of Tailwind CSS was used to give the features to the template.
 - [Flowbite](https://flowbite.com/docs/getting-started/introduction/) - It is the most popular open-source library of interactive UI components built with the utility classes from Tailwind CSS.
 
 ## Author
