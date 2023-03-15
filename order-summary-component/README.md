@@ -70,7 +70,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Tailwindcss Documentation](https://tailwindcss.com/docs/installation) - It is used to apply the necessary features.
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation) - It is used to apply the necessary features.
 
 ## Author
 
