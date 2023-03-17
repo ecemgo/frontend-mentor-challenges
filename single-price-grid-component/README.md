@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/single-price-grid-component)
 - [Live Site URL](https://ecemgo-single-price-grid-component.netlify.app/)
 
 ## My process
