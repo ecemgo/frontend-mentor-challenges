@@ -87,7 +87,7 @@ h2 {
 }
 
 .bg-primary h2 {
-  margin-bottom: 1.2em;
+  margin-bottom: 1em;
 }
 
 .dollar {
@@ -109,7 +109,7 @@ h2 {
 ul {
   padding-left: 0;
   list-style: none;
-  line-height: 1.3;
+  line-height: 1.4;
 }
 
 button {
