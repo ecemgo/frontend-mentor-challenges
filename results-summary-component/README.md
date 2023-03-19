@@ -39,12 +39,9 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- ScrollReveal JS
 
 ### Useful resources
 
-- [ScrollReveal](https://scrollrevealjs.org/) - It is a source for animation and it's been used for installation.
-- [ScrollReveal Effect](https://www.youtube.com/watch?v=Zwa5z9Ws7y4) - It's been used for how to apply ScrollReveal JS.
 - [Kevin Powell](https://www.youtube.com/@KevinPowell) - Kevin Powell's Youtube Channel is a useful source to learn the CSS concept.
 
 ## Author
