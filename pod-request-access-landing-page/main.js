@@ -11,6 +11,7 @@ function checker() {
   } else if (emailId.value == "") {
     error.style.display = "none";
     remark.style.display = "none";
+    window.location.reload();
   } else {
     error.style.display = "block";
   }
