@@ -46,7 +46,7 @@ body {
   justify-content: space-evenly;
   font-family: "Chivo", sans-serif;
   background-color: var(--bg-main);
-  min-height: 110vh;
+  min-height: 100vh;
   background-image: url(assets/desktop/bg-pattern-dots.svg),
     url(assets/desktop/image-host.jpg);
   background-repeat: no-repeat, no-repeat;
@@ -54,9 +54,8 @@ body {
 }
 
 .logo {
-  /* padding: 4.5rem 0 4.7rem 0; */
   display: block;
-  margin-left: 10%;
+  margin: 3% 0 3% 10%;
 }
 
 .content {
@@ -68,7 +67,6 @@ body {
   max-height: auto;
   max-width: 48rem;
   margin-left: 10%;
-  margin-top: 5%;
   padding: 6rem 7rem 0 0;
 }
 
@@ -101,7 +99,6 @@ form {
 }
 
 input {
-  margin-bottom: 4.5rem;
   border: none;
   width: 100%;
   border-radius: 1.75rem;
@@ -144,7 +141,6 @@ button:hover {
   align-items: center;
   color: var(--clr-emphasis);
   font-size: var(--fs-500);
-  /* margin-bottom: 3rem; */
 }
 
 #remark i {
@@ -159,7 +155,7 @@ button:hover {
 
 #error {
   display: none;
-  margin: 0.7rem 0 3rem 0.5rem;
+  margin: 0.7rem 0 0 0.5rem;
   color: var(--clr-error);
   font-size: var(--fs-300);
 }
@@ -168,9 +164,9 @@ button:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* flex-wrap: wrap; */
   flex-flow: row wrap;
   max-width: 35rem;
+  margin-top: 4.5rem;
 }
 
 .stream img {
