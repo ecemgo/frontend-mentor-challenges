@@ -17,7 +17,6 @@ body {
 }
 
 .qr-code-box {
-  /* position: absolute; */
   background: white;
   padding: 15px;
   border-radius: 20px;
@@ -49,7 +48,7 @@ h1 {
 }
 
 p {
-  font-size: 1rem; // use 'rem' instead of pixel in font-size
+  font-size: 1rem; 
   font-weight: 400px;
   text-align: center;
   color: #7b879d;
