@@ -41,6 +41,9 @@ svg {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   font-family: "Chivo", sans-serif;
   background-color: var(--bg-main);
   min-height: 110vh;
@@ -51,7 +54,7 @@ body {
 }
 
 .logo {
-  padding: 4.5rem 0 4.7rem 0;
+  /* padding: 4.5rem 0 4.7rem 0; */
   display: block;
   margin-left: 10%;
 }
@@ -65,6 +68,7 @@ body {
   max-height: auto;
   max-width: 48rem;
   margin-left: 10%;
+  margin-top: 5%;
   padding: 6rem 7rem 0 0;
 }
 
@@ -85,6 +89,7 @@ p {
   color: var(--clr-text);
   font-weight: var(--fw-light);
   margin: 0 13rem 2.5rem 0;
+  line-height: 1.5;
 }
 
 form {
@@ -185,13 +190,12 @@ button:hover {
   }
 
   .logo {
-    margin-left: 1rem;
+    margin: 5% 0 20% 5%;
   }
 
   .content {
     padding: 4rem 4rem 0 0;
-    margin-right: 3rem;
-    margin-left: 1rem;
+    margin: 0 30% 0 5%;
   }
 
   p {
