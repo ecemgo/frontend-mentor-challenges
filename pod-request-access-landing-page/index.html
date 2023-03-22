@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Ecem Gokdogan" />
+  <meta name="keywords" content="Frontend Mentor, Frontend, Mentor,  pod request access landing page, pod request access landing page github, github, pure css, html, Ecem Gokdogan, ecemgo, FrontendMentor.io, Ecem Gokdogan Frontend"/>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <!-- Font Awesone Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- css file -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Pod Request Access Landing Page</title>
+</head>
+<body>
+  <main>
+    <img class="logo" src="assets/desktop/logo.svg" alt="logo">
+    <div class="content">
+      <h1>Publish your podcasts <span> everywhere.</span></h1>
+      <p>Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
+      <form id="form" autocomplete="off">
+        <input type="email" id="email-id" placeholder="Email address" required placeholder="Email address" oninput="checker()">
+        <button type="submit" class="submit-btn">Request Access</button>
+      </form>
+      <div id="remark">
+        <!-- <i class="fa-solid fa-circle-check"></i><span>Your email is valid!</span> -->
+      </div>
+      <span id="error">Oops! Please check your email</span>
+     
+      <div class="stream">
+        <img src="assets/desktop/spotify.svg" alt="spotify">
+        <img src="assets/desktop/apple-podcast.svg" alt="apple-podcast">
+        <img src="assets/desktop/google-podcasts.svg" alt="google-podcast">
+        <img src="assets/desktop/pocket-casts.svg" alt="pocket-casts">
+      </div>
+    </div>
+  </main>
+  
+  <script src="main.js"></script>
+</body>
+</html>

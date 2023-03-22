@@ -1,0 +1,198 @@
+:root {
+  --input-background: rgb(44, 52, 75);
+  --bg-main: rgb(18, 23, 37);
+  --clr-light: rgb(255, 255, 255);
+  --clr-emphasis: rgb(84, 230, 175);
+  --clr-hover: rgb(143, 255, 212);
+  --clr-text: rgb(194, 203, 229);
+  --clr-error: rgb(240, 10, 21);
+
+  --fw-thin: 100;
+  --fw-extralight: 200;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extrabold: 800;
+  --fw-black: 900;
+
+  --fs-300: 1rem;
+  --fs-400: 1.125rem;
+  --fs-500: 1.5rem;
+  --fs-700: 3.25rem;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    font: inherit;
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    font-family: "Chivo", sans-serif;
+    background-color: var(--bg-main);
+    min-height: 100vh;
+    background-image: url(assets/desktop/bg-pattern-dots.svg), url(assets/desktop/image-host.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right bottom 5%, right center;
+}
+
+.logo {
+    padding: 4.5rem 0 4.7rem 0;
+    display: block;
+    margin-left: 10%;
+}
+
+.content {
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--bg-main);
+    max-height: auto;
+    max-width: 48rem;
+    margin-left: 10%;
+    padding: 6rem 7rem 0 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: var(--fs-700);
+    color: var(--clr-emphasis);
+    font-weight: var(--fw-light);
+    margin-bottom: 2rem;
+}
+
+span {
+    color: var(--clr-light);
+}
+
+p {
+    font-size: var(--fs-400);
+    color: var(--clr-text);
+    font-weight: var(--fw-light);
+    margin: 0 13rem 2.5rem 0;
+}
+
+form {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    width: 28rem;
+    max-width: 100%;
+}
+
+input {
+    margin-bottom: 4.5rem;
+    border: none;
+    width: 100%;
+    border-radius: 1.75rem;
+    padding: 0.938rem 12rem 0.938rem 1.25rem;
+    font-weight: var(--fw-light);
+    font-size: var(--fs-400);
+    background: var(--input-background);
+    color: var(--clr-text);
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+}
+
+input[type="email"]:focus {
+    outline: 4px dotted var(--clr-emphasis);
+    outline-offset: 0.2rem;
+}
+
+button {
+    border: none;
+    position: absolute;
+    width: 11rem;
+    right: 0;
+    margin: 0 0 0 17rem;
+    cursor: pointer;
+    background-color: var(--clr-emphasis);
+    border-radius: 1.75rem;
+    padding: 0.938rem 1.25rem;
+    font-weight: var(--fw-semibold);
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+button:hover {
+    background-color: var(--clr-hover);
+}
+
+#remark {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--clr-emphasis);
+    font-size: var(--fs-500);
+    /* margin-bottom: 3rem; */
+}
+
+#remark i {
+    margin: 0.7rem 0.3rem 0 0.5rem;
+}
+
+#remark span {
+    font-size: var(--fs-300);
+    color: var(--clr-emphasis);
+    margin-top: 0.5rem;
+}
+
+#error  {
+    display: none;
+    margin: 0.7rem 0 3rem 0.5rem;
+    color: var(--clr-error);
+    font-size: var(--fs-300);
+}
+
+.stream {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
+    max-width: 35rem;
+}
+
+.stream img {
+    margin-right: 2rem;
+}
+
+@media (max-width: 48rem) {
+    body {
+        background-image: url(assets/desktop/bg-pattern-dots.svg), url(assets/mobile/image-host.jpg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: left 10% bottom -2%, right top;
+    }
+
+    main {
+        margin-bottom: 10rem;
+    }
+
+    .logo {
+        margin-left: 1rem;
+    }
+
+    .content {
+        padding: 4rem 4rem 0 0;
+        margin-right: 3rem;
+        margin-left: 1rem;
+    }
+
+    p {
+        margin-right: 3rem;
+    }
+}
