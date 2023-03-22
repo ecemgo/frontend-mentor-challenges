@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/pod-request-access-landing-page)
 - [Live Site URL](https://ecemgo-pod-request-access.netlify.app/)
 
 ## My process
