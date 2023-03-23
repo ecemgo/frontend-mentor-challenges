@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Live Site URL](https://your-live-site-url.com)
+- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/stats-preview-card-component)
+- [Live Site URL](https://ecemgo-stats-preview-card-component.netlify.app/)
 
 ## My process
 
