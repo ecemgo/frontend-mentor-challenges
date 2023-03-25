@@ -11,7 +11,7 @@
   --ff-josefin-sans: "Josefin Sans", sans-serif;
   --ff-alata-sans: "Alata", sans-serif;
 
-  --fs-600: 5rem;
+  --fs-600: 4rem;
   --fs-500: 3.2rem;
   --fs-490: 2.7rem;
   --fs-480: 2.3rem;
@@ -64,7 +64,7 @@ body {
 
 header {
   background-color: hsl(var(--clr-hsl-black), 0.5);
-  background-image: url(/images/desktop/image-hero.jpg);
+  background-image: url(./images/desktop/image-hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -122,7 +122,7 @@ nav ul li:hover::after {
 .banner {
   border: 3px solid var(--clr-white);
   max-width: 43rem;
-  padding: 2.5rem 3rem;
+  padding: 1.5rem 3rem;
   margin-bottom: 5rem;
   display: flex;
   flex-wrap: wrap;
@@ -186,10 +186,10 @@ nav ul li:hover::after {
 .product h2 {
   font-family: var(--ff-josefin-sans);
   font-weight: var(--fw-light);
-  font-size: var(--fs-500);
+  font-size: var(--fs-490);
   letter-spacing: 1px;
   text-transform: uppercase;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
 }
 
 .product-grid {
@@ -397,18 +397,6 @@ ion-icon:hover {
     padding: 4rem 5rem;
   }
 
-  .about {
-    padding: 0 5rem;
-  }
-
-  .product {
-    padding: 0 5rem;
-  }
-
-  footer {
-    padding: 3rem 5rem;
-  }
-
   .mobile-nav-brand {
     display: flex;
     justify-content: space-between;
@@ -461,8 +449,16 @@ ion-icon:hover {
     display: block;
   }
 
+  .about {
+    padding: 0 5rem;
+  }
+
   .about .content-box {
     padding: 0 6rem;
+  }
+
+  .product {
+    padding: 0 5rem;
   }
 
   .product h2 {
@@ -478,6 +474,7 @@ ion-icon:hover {
   }
 
   footer {
+    padding: 3rem 5rem;
     flex-direction: column;
   }
 
@@ -507,18 +504,6 @@ ion-icon:hover {
     padding: 4rem;
   }
 
-  .about {
-    padding: 0 4rem;
-  }
-
-  .product {
-    padding: 0 4rem;
-  }
-
-  footer {
-    padding: 3rem 4rem;
-  }
-
   .banner {
     padding: 2.5rem;
   }
@@ -526,6 +511,10 @@ ion-icon:hover {
   .banner h1 {
     font-weight: var(--fw-light);
     font-size: var(--fs-500);
+  }
+
+  .about {
+    padding: 0 4rem;
   }
 
   .center-box img {
@@ -536,8 +525,16 @@ ion-icon:hover {
     padding: 0 1rem;
   }
 
+  .product {
+    padding: 0 4rem;
+  }
+
   .product h2 {
     margin-bottom: 3rem;
+  }
+
+  footer {
+    padding: 3rem 4rem;
   }
 }
 
@@ -595,14 +592,6 @@ ion-icon:hover {
     padding: 0 2rem;
   }
 
-  .product {
-    padding: 0 2rem;
-  }
-
-  footer {
-    padding: 3rem 2rem;
-  }
-
   .center-box img {
     max-width: 18rem;
   }
@@ -615,6 +604,14 @@ ion-icon:hover {
   .about .content-box p {
     font-weight: var(--fw-light);
     font-size: var(--fs-300);
+  }
+
+  .product {
+    padding: 0 2rem;
+  }
+
+  footer {
+    padding: 3rem 2rem;
   }
 
   .footer-nav ul {
