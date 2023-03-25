@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/loopstudios-landing-page)
 - [Live Site URL](https://ecemgo-loopstudios-landing-page.netlify.app/)
 
 ## My process
