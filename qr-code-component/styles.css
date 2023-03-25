@@ -1,59 +1,52 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 
-body {
-  background: #d6e2f0;
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* height: 100%; */
 }
 
-.flex-container {
-  position: relative;
+body {
+  background: #d6e2f0;
+  font-family: 'Outfit', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  overflow: auto;
+  align-items: center;
   min-height: 100vh;
 }
 
 .qr-code-box {
   background: white;
-  padding: 15px;
-  border-radius: 20px;
-  font-family: Outfit;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 280px;
+  padding: 1rem;
+  border-radius: 5%;
+  max-width: 20rem;
   height: auto;
 }
 
-.qrimg {
+.qr-code-box img {
   width: 100%;
   height: 100%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 12px;
-  border-radius: 10px;
+  margin-bottom: 1rem;
+  border-radius: 5%;
 }
 
 h1 {
   font-size: 1.3rem;
+  font-weight: 700;
   text-align: center;
-  font-weight: 700px;
   color: #1f3251;
-  padding: 0 8px;
-  margin-bottom: 5px;
+  margin: 1rem;
 }
 
 p {
   font-size: 1rem; 
-  font-weight: 400px;
+  font-weight: 400;
   text-align: center;
   color: #7b879d;
-  padding: 0 18px;
-  margin-bottom: 25px;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
 }
 
 .content {
