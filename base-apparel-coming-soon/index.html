@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Ecem Gokdogan" />
+  <meta name="keywords" content="frontend mentor, frontend mentor challenges, frontend development, base apparel coming soon, base apparel coming soon github, github, pure css, html css javascript, Ecem Gokdogan, ecemgo, FrontendMentor.io, Ecem Gokdogan Frontend"/>
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+   <!-- Font Awesone Icons -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Google Fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Base Apparel Coming Soon Page</title>
+</head>
+<body>
+
+  <main>
+    <div class="content">
+      <div class="logo">
+        <img src="images/logo.svg" alt="base apparel">
+      </div>
+      <h1><span>We're</span> coming soon</h1>
+      <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+      <form id="form" autocomplete="off">
+        <input type="email" id="email-id" placeholder="Email address" required placeholder="Email address" oninput="checker()">
+        <button type="submit" class="submit-btn"><img src="images/icon-arrow.svg" alt="arrow"></button>
+      </form>
+      <div id="remark">
+        <!-- <i class="fa-solid fa-circle-check"></i><span>Your email is valid!</span> -->
+      </div>
+      <div id="error">
+        <span>Oops! Please check your email</span>
+      </div>
+      
+    </div>
+
+    <div class="hero-img"></div>
+    
+  </main>
+<script src="app.js"></script>
+</body>
+</html>

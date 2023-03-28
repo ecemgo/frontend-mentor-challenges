@@ -1,0 +1,300 @@
+:root {
+  --desaturated-red: hsl(0, 36%, 70%);
+  --soft-red: hsl(0, 93%, 68%);
+  --dark-grayish-red: hsl(0, 6%, 24%);
+  --clr-success: hsl(157, 90%, 23%);
+  --clr-error: hsl(357, 92%, 49%);
+
+  --hsl-desaturated-red: 0, 36%, 70%;
+  --hsl-dark-grayish-red: 0, 6%, 24%;
+
+  --clr-primary-100: hsl(0, 0%, 100%);
+  --clr-primary-200: hsl(0, 100%, 98%);
+  --clr-secondary-100: hsl(0, 80%, 86%);
+  --clr-secondary-200: hsl(0, 74%, 74%);
+
+  --gradient-primary: linear-gradient(
+    135deg,
+    var(--clr-primary-100),
+    var(--clr-primary-200)
+  );
+
+  --gradient-secondary: linear-gradient(
+    135deg,
+    var(--clr-secondary-100),
+    var(--clr-secondary-200)
+  );
+
+  --fw-thin: 100;
+  --fw-extralight: 200;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extrabold: 800;
+  --fw-black: 900;
+
+  --fs-200: 0.8rem;
+  --fs-300: 1rem;
+  --fs-400: 1.125rem;
+  --fs-500: 1.5rem;
+  --fs-700: 3rem;
+  --fs-800: 4rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font: inherit;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  min-height: 100vh;
+}
+
+.content {
+  background: url(./images/bg-pattern-desktop.svg), var(--gradient-primary);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem 10.2rem;
+}
+
+.logo img {
+  height: 2.3rem;
+  margin-bottom: 7rem;
+}
+
+.content h1 {
+  color: var(--dark-grayish-red);
+  font-size: var(--fs-800);
+  text-transform: uppercase;
+  letter-spacing: 1.3rem;
+  font-weight: var(--fw-semibold);
+  margin-bottom: 1.5rem;
+}
+
+.content h1 span {
+  color: var(--desaturated-red);
+  font-weight: var(--fw-light);
+}
+
+.content p {
+  color: var(--desaturated-red);
+  font-size: var(--fs-300);
+  font-weight: var(--fw-medium);
+  line-height: 1.7;
+  margin-bottom: 3rem;
+  padding-right: 10%;
+}
+
+.hero-img {
+  background-image: url(./images/hero-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+form {
+  position: relative;
+}
+
+input {
+  border: 0.1rem solid hsl(var(--hsl-desaturated-red), .7);
+  outline: transparent;
+  width: 90%;
+  height: 3.7rem;
+  border-radius: 2rem;
+  padding: 0.938rem 7rem 0.938rem 2rem;
+  background: transparent; 
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+}
+
+#email-id::placeholder {
+  color: var(--desaturated-red);
+  opacity: 50%;
+  font-weight: var(--fw-regular);
+}
+
+input[type="email"]
+{
+  font-weight: var(--fw-semibold);
+  font-size: var(--fs-400);
+  color: var(--desaturated-red);
+}
+
+input[type="email"]:focus {
+  border: transparent;
+  outline: 5px dotted var(--desaturated-red);
+  outline-offset: 0.2rem;
+}
+
+.submit-btn {
+  position: absolute;
+  border: none;
+  right: 10%;
+  height: 3.7rem;
+  border-radius: 2rem;
+  padding: 0.813rem 3rem;
+  cursor: pointer;
+  background: var(--gradient-secondary);
+}
+
+button:hover {
+  background: var(--clr-secondary-100);
+}
+
+#remark {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: var(--clr-success);
+  font-size: var(--fs-400);
+}
+
+#remark i {
+  margin: 1rem 0.3rem 0 0.5rem;
+}
+
+#remark span {
+  font-size: var(--fs-200);
+  color: var(--clr-success);
+  margin-top: 0.8rem;
+}
+
+#error {
+  display: none;
+}
+
+#error span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem 0 0 0.5rem;
+  color: var(--clr-error);
+  font-size: var(--fs-200);
+}
+
+@media screen and (max-width: 1200px) {
+  main {
+    grid-template-columns: 50% 1fr;
+  }
+
+  .content {
+    padding: 4rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  main {
+    grid-template-columns: 50% 1fr;
+  }
+
+  .content {
+    padding: 4rem 2rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  main {
+    overflow-x: hidden;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 6fr 7fr;
+    grid-template-areas:
+      "logo"
+      "hero"
+      "content";
+  }
+
+  .logo {
+    position: absolute;
+    grid-area: logo;
+    top: 4%;
+    left: 7%;
+  }
+
+  .logo img {
+    height: 2rem;
+  }
+
+  .hero-img {
+    grid-area: hero;
+    background-position: top 20% right;
+  }
+
+  .content {
+    grid-area: content;
+    text-align: center;
+  }
+
+  .submit-btn {
+    right: 5%;
+  }
+
+  #remark i {
+    margin: 1rem 0.3rem 0 2.5rem;
+  }
+
+  #error {
+    margin: 1rem 0.3rem 0 2.5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  main {
+    overflow-x: hidden;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr 7fr;
+    grid-template-areas:
+      "logo"
+      "hero"
+      "content";
+  }
+
+  .logo img {
+    height: 1.5rem;
+  }
+
+  .content h1 {
+    font-size: var(--fs-700);
+    letter-spacing: 0.9rem;
+  }
+
+  .content p {
+    font-size: var(--fs-200);
+  }
+
+  input {
+    width: 85%;
+    height: 2.5rem;
+    padding: 0.938rem 4.3rem 0.938rem 1rem;
+  }
+
+  input[type="email"]:focus {
+    outline: 3px dotted var(--desaturated-red);
+    outline-offset: 0.1rem;
+  }
+
+  .submit-btn {
+    right: 7%;
+    height: 2.5rem;
+    padding: 0.6rem 2rem;
+  }
+
+}
