@@ -17,6 +17,16 @@ function checker() {
   }
 }
 
+//! continue to show error message when press the backspace and delete
+emailId.onkeydown = function (e) {
+  var key = e.keyCode || e.charCode;
+
+  if (key == 8 || key == 46) {
+    error.style.display = "block";
+    remark.style.display = "none";
+  }
+};
+
 //! submit the email address
 form.addEventListener("submit", (e) => {
   e.preventDefault();
