@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/base-apparel-coming-soon)
 - [Live Site URL](https://ecemgo-base-apparel-coming-soon.netlify.app/)
 
 ## My process
