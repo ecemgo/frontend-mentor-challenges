@@ -5,7 +5,6 @@
   --clr-emphasis: rgb(84, 230, 175);
   --clr-hover: rgb(143, 255, 212);
   --clr-text: rgb(194, 203, 229);
-  --clr-error: rgb(240, 10, 21);
 
   --fw-thin: 100;
   --fw-extralight: 200;
@@ -133,31 +132,6 @@ button {
 
 button:hover {
   background-color: var(--clr-hover);
-}
-
-#remark {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  color: var(--clr-emphasis);
-  font-size: var(--fs-500);
-}
-
-#remark i {
-  margin: 0.7rem 0.3rem 0 0.5rem;
-}
-
-#remark span {
-  font-size: var(--fs-300);
-  color: var(--clr-emphasis);
-  margin-top: 0.5rem;
-}
-
-#error {
-  display: none;
-  margin: 0.7rem 0 0 0.5rem;
-  color: var(--clr-error);
-  font-size: var(--fs-300);
 }
 
 .stream {

@@ -47,7 +47,8 @@ Users should be able to:
 
 - [Figma](https://www.figma.com/) - It is used to define the styles specified by Frontend Mentor.
 - [Font Awesome](https://fontawesome.com/) - It is used for the 'check' icon.
-- [Email Validation](https://www.youtube.com/watch?v=1tnINeBLNj4) - It is used for how to apply email address validation.
+- [Stack Overflow](https://stackoverflow.com/questions/68156642/can-i-use-an-event-listener-to-validate-an-email-address-after-its-entered-with) - It is used for showing whether the email address validation or not while typing.
+- [Typing Animation](https://www.youtube.com/watch?v=3qOTdDPt1Cc) - It is used for the placeholder with typing animation.
 
 ## Author
 

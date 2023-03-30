@@ -25,13 +25,9 @@
       <h1>Publish your podcasts <span> everywhere.</span></h1>
       <p>Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
       <form id="form" autocomplete="off">
-        <input type="email" id="email-id" placeholder="Email address" required placeholder="Email address" oninput="checker()">
-        <button type="submit" class="submit-btn">Request Access</button>
+        <input type="email" id="email-id" aria-label="email adress" placeholder="Email address" required placeholder="Email address" oninput="checkEmpty()">
+        <button type="submit" class="submit-btn" aria-label="submit">Request Access</button>
       </form>
-      <div id="remark">
-        <!-- <i class="fa-solid fa-circle-check"></i><span>Your email is valid!</span> -->
-      </div>
-      <span id="error">Oops! Please check your email</span>
      
       <div class="stream">
         <img src="assets/desktop/spotify.svg" alt="spotify">
