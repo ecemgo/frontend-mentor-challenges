@@ -47,8 +47,10 @@ Users should be able to:
 
 ### Useful resources
 
-- [Youtube](https://www.youtube.com/watch?v=3qOTdDPt1Cc) - It is used for the placeholder with typing animation.
+- [Wes Bos](https://cssgrid.io/) - Wes Bos's course is used to understand the concept of CSS Grid.
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS) - It is a comprehensive CSS guide.
+- [Typing Animation](https://www.youtube.com/watch?v=3qOTdDPt1Cc) - It is used for the placeholder with typing animation.
+
 
 ## Author
 
