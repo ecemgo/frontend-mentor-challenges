@@ -2,7 +2,6 @@
   --desaturated-red: hsl(0, 36%, 70%);
   --soft-red: hsl(0, 93%, 68%);
   --dark-grayish-red: hsl(0, 6%, 24%);
-  --clr-success: hsl(157, 90%, 23%);
   --clr-error: hsl(357, 92%, 49%);
 
   --hsl-desaturated-red: 0, 36%, 70%;
@@ -115,13 +114,13 @@ form {
 }
 
 input {
-  border: 0.1rem solid hsl(var(--hsl-desaturated-red), .7);
+  border: 0.1rem solid hsl(var(--hsl-desaturated-red), 0.7);
   outline: transparent;
   width: 90%;
   height: 3.7rem;
   border-radius: 2rem;
   padding: 0.938rem 7rem 0.938rem 2rem;
-  background: transparent; 
+  background: transparent;
   transition: 0.2s;
   -webkit-transition: 0.2s;
 }
@@ -132,8 +131,7 @@ input {
   font-weight: var(--fw-regular);
 }
 
-input[type="email"]
-{
+input[type="email"] {
   font-weight: var(--fw-semibold);
   font-size: var(--fs-400);
   color: var(--desaturated-red);
@@ -160,33 +158,21 @@ button:hover {
   background: var(--clr-secondary-100);
 }
 
-#remark {
+#error {
+  visibility: hidden;
   display: flex;
   flex-direction: row;
   align-items: center;
-  color: var(--clr-success);
+  color: var(--clr-error);
   font-size: var(--fs-400);
 }
 
-#remark i {
-  margin: 1rem 0.3rem 0 0.5rem;
-}
-
-#remark span {
-  font-size: var(--fs-200);
-  color: var(--clr-success);
-  margin-top: 0.8rem;
-}
-
-#error {
-  display: none;
+#error i {
+  margin: 1.2rem 0 0 1rem;
 }
 
 #error span {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: 1rem 0 0 0.5rem;
+  margin: 1.2rem 0 0 0.5rem;
   color: var(--clr-error);
   font-size: var(--fs-200);
 }
@@ -247,12 +233,12 @@ button:hover {
     right: 5%;
   }
 
-  #remark i {
-    margin: 1rem 0.3rem 0 2.5rem;
+  #error i {
+    margin: 1rem 0 0 2.5rem;
   }
 
-  #error {
-    margin: 1rem 0.3rem 0 2.5rem;
+  #error span {
+  margin: 1rem 0 0 0.5rem;
   }
 }
 
@@ -296,5 +282,4 @@ button:hover {
     height: 2.5rem;
     padding: 0.6rem 2rem;
   }
-
 }

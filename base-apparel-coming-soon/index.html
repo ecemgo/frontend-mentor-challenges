@@ -27,14 +27,11 @@
       <h1><span>We're</span> coming soon</h1>
       <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
       <form id="form" autocomplete="off">
-        <input type="email" id="email-id" placeholder="Email address" aria-label="email adress" required placeholder="Email address" oninput="checker()">
+        <input type="email" id="email-id" placeholder="Email address" aria-label="email adress" required placeholder="Email address" oninput="checkEmpty()">
         <button type="submit" class="submit-btn" aria-label="submit"><img src="images/icon-arrow.svg" alt="email subscription"></button>
       </form>
-      <div id="remark">
-        <!-- <i class="fa-solid fa-circle-check"></i><span>Your email is valid!</span> -->
-      </div>
       <div id="error">
-        <span>Oops! Please check your email</span>
+        <i class="fa-solid fa-triangle-exclamation"></i><span>Please provide a valid email</span>
       </div>
       
     </div>
