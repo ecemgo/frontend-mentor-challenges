@@ -36,7 +36,7 @@ function checkEmpty() {
 form.addEventListener("submit", (e) => {
   if (emailId.value.match(mailRegex)) {
     e.preventDefault();
-    form.innerHTML = `<p style="font-size: 30px; color: hsl(0, 6%, 24%);">Subscribed!</p>`;
+    form.innerHTML = `<p style="font-size: 2rem; color: hsl(0, 6%, 24%);">Subscribed!</p>`;
     // alert("Your email address has been submitted successfully!");
     // emailId.value = "";
     // window.location.reload();
