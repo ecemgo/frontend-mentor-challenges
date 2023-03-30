@@ -6,7 +6,7 @@ emailId.addEventListener("keyup", (e) => {
   console.log("Caret at: ", e.target.selectionStart);
 });
 
-//! check whether email address is valid or not
+//! show whether the email address is valid or not with an outline
 emailId.addEventListener("input", (e) => {
   const emailInputValue = e.currentTarget.value;
   if (
