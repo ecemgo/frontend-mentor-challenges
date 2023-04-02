@@ -19,7 +19,7 @@
   --fs-400: 1.2rem;
   --fs-600: 2rem;
   --fs-700: 3rem;
-  --fs-800: 6rem;
+  --fs-800: 6.2rem;
 }
 
 *,
@@ -46,7 +46,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 120vh;
+  min-height: 110vh;
 }
 
 main {
@@ -131,6 +131,7 @@ small {
 
 hr {
   width: 100%;
+  opacity: 50%;
 }
 
 button {
@@ -170,6 +171,7 @@ h1 {
 
 h1 span {
   color: var(--clr-purple);
+  letter-spacing: 0.5rem;
 }
 
 .attribution {
