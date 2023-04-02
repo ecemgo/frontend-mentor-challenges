@@ -46,7 +46,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 110vh;
+  min-height: 107vh;
 }
 
 main {
@@ -174,29 +174,26 @@ h1 span {
   letter-spacing: 0.5rem;
 }
 
-.attribution {
-  font-size: var(--fs-100);
-  font-weight: var(--fw-regular);
-  text-align: center;
-  margin-top: 1rem;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-  text-decoration: none;
-  transition: all 0.4s ease-in;
-}
-
-.attribution a:hover {
-  color: var(--clr-purple);
-}
-
 .animatedResults {
+  animation-name: yourage;
   -webkit-animation-name: yourage;
+  animation-duration: 3s;
   -webkit-animation-duration: 3s;
+  animation-iteration-count: 1;
   -webkit-animation-iteration-count: 1;
+  animation-timing-function: ease;
   -webkit-animation-timing-function: ease;
+  animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes yourage {
+  from {
+    -webkit-transform: rotate(0deg) scale(0) skew(0deg) translate(100px);
+  }
+  to {
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0);
+  }
 }
 
 @-webkit-keyframes yourage {

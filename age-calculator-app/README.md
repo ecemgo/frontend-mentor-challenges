@@ -50,6 +50,7 @@ Users should be able to:
 
 ### Useful resources
 
+- [Figma](https://www.figma.com/) - It is used to define the styles specified by Frontend Mentor.
 - [Stack Overflow](https://stackoverflow.com/questions/4847996/css-animation-onclick) - It is used for the animated resutls.
 
 ## Author
