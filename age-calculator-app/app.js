@@ -39,10 +39,9 @@ function validate() {
           "Must be a valid day";
         validator = false;
       } else {
-        dayInput.parentElement.querySelector("label").style.color =
-          "hsl(0, 1%, 44%)";
-        dayInput.borderColor = "hsl(0, 0%, 8%)";
-        dayInput.parentElement.querySelector("small").innerText = "";
+        parent.querySelector("label").style.color = "hsl(0, 1%, 44%)";
+        i.style.borderColor = "hsl(0, 0%, 8%)";
+        parent.querySelector("small").innerText = "";
         validator = true;
       }
     } else if (
@@ -59,10 +58,9 @@ function validate() {
           "Must be a valid day";
         validator = false;
       } else {
-        dayInput.parentElement.querySelector("label").style.color =
-          "hsl(0, 1%, 44%)";
-        dayInput.borderColor = "hsl(0, 0%, 8%)";
-        dayInput.parentElement.querySelector("small").innerText = "";
+        parent.querySelector("label").style.color = "hsl(0, 1%, 44%)";
+        i.style.borderColor = "hsl(0, 0%, 8%)";
+        parent.querySelector("small").innerText = "";
         validator = true;
       }
     } else if (dayInput.value > 31 || dayInput.value < 1) {
@@ -97,6 +95,9 @@ function validate() {
       parent.querySelector("label").style.color = "hsl(0, 1%, 44%)";
       i.style.borderColor = "hsl(0, 0%, 8%)";
       parent.querySelector("small").innerText = "";
+      // dayInput.parentElement.querySelector("small").innerText = "";
+      // monthInput.parentElement.querySelector("small").innerText = "";
+      // yearInput.parentElement.querySelector("small").innerText = "";
       validator = true;
     }
   });
