@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/age-calculator-app)
+- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/coding-bootcamp-testimonials-slider)
 - [Live Site URL](https://ecemgo-bootcamp-testimonials-slider.netlify.app/)
 
 ## My process
