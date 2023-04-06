@@ -1,0 +1,217 @@
+:root {
+    --dark-blue: hsl(240, 38%, 20%);
+    --grayish-blue: hsl(240, 18%, 77%);
+    --white: hsl(0, 0%, 100%);
+    --bg-main: hsl(0, 0%, 100%);
+ 
+    --fw-light: 300;
+    --fw-medium: 500;
+    --fw-bold: 700;
+  
+    --fs-200: 0.8rem;
+    --fs-300: 1rem;
+    --fs-400: 1.25rem;
+    --fs-500: 2rem;
+    --fs-700: 3rem;
+    --fs-800: 4rem;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    font-size: 1rem;
+    background-color: var(--bg-main);
+}
+
+main {
+    min-height: 100vh;
+    width: 98%;
+    background-image: url(images/pattern-curve.svg), url(images/pattern-bg.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, auto;
+    background-position: left bottom, top 40% right 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slides {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-quote {
+    background-image: url(images/pattern-quotes.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left 28% top -3%;
+    max-width: 40rem;
+    padding: 3.5rem 0 3.2rem 0;
+    margin-top: 2rem;
+}
+
+.testimonial-quote p {
+    font-size: var(--fs-500);
+    font-weight: var(--fw-light);
+    line-height: 1.4;
+    z-index: 10;
+    position: relative;
+    right: -8%;
+}
+
+.testimonial-quote h1 {
+    font-size: var(--fs-400);
+    font-weight: var(--fw-bold);
+    padding-left: 8%;
+    margin-top: 2rem;
+}
+
+.testimonial-quote span {
+    font-weight: var(--fw-medium);
+    color: var(--grayish-blue);
+    margin-left: 0.3rem;
+}
+
+.testimonial-profile {
+    position: relative;
+    margin-bottom: 1.4rem;
+    left: -2%;
+}
+
+.testimonial-photo {
+    box-shadow: 0 2.5rem 3.125rem -1.875rem rgba(36, 36, 113, 0.5);
+    border-radius: 0.313rem;
+
+}
+
+.slider-control {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background: var(--white);
+    padding: 0.4rem;
+    box-shadow: 0 1rem 1.25rem -0.625rem rgba(36, 36, 113, 0.1);
+    border-radius: 1.875rem;
+    z-index: 10;
+    bottom: -4%;
+    left: 11%;
+}
+
+.slider-control a {
+    margin: 0.7rem 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.slider-control a:hover {
+    transform: scale(1.1);
+}
+
+.animate .testimonial-quote,
+.animate .testimonial-profile {
+  animation: fadeIn ease 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1100px) {
+    main {
+        background-size: auto, auto;
+        background-position: left bottom, top 5% center;
+        padding: 5rem 0;
+    }
+
+    .slides {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 4rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .testimonial-quote {
+        background-size: auto;
+        background-position: top center;
+        text-align: center;
+        margin: 4rem 0;
+        padding: 3.6rem 2rem;
+        max-width: 60rem;
+    }
+
+    .testimonial-quote h1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.4rem;
+        margin-top: 2.5rem;
+        padding-left: 0;
+    }
+
+    .testimonial-quote p {
+        right: 0;
+    }
+
+    .testimonial-profile {
+        margin: 0 2rem;
+    }
+
+    .slider-control {
+        left: 40%;
+        bottom: -5%;
+    }
+}
+
+@media (max-width: 700px) {
+    main {
+        background-size: contain, contain;
+    }
+
+    .slides {
+        gap: 2rem;
+    }
+
+    .testimonial-quote h1 {
+        margin-top: 1.5rem;
+    }
+
+    .slider-control a {
+        margin: 0.6rem 1rem;
+    }
+}
+
+@media (max-width: 440px) {
+    .slider-control {
+        left: 30%;
+        bottom: -7%;
+    }
+
+    .slider-control a {
+        margin: 0.4rem 0.8rem;
+    }
+}
