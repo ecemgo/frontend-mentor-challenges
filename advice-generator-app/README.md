@@ -10,6 +10,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -37,14 +38,26 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- Pure CSS
+- CSS custom properties
 - Flexbox
-- Javascript
 - Fetch API
+
+### What I learned
+
+The `<source>` elements include a `media` attribute that contains a media condition — as with the first `srcset` example, these conditions are tests that decide which image is shown — the first one that returns true will be displayed. In this case, if the viewport width is 799px wide or less, the first `<source>` element's image will be displayed. If the viewport width is 800px or more, it'll be the second one.
+
+```
+<picture>
+  <source media="(max-width: 799px)" srcset="elva-480w-close-portrait.jpg" />
+  <source media="(min-width: 800px)" srcset="elva-800w.jpg" />
+  <img src="elva-800w.jpg" alt="Chris standing up holding his daughter Elva" />
+</picture>
+```
 
 ### Useful resources
 
 - [Advice Slip API](https://api.adviceslip.com/) - It is used to generate random advice.
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) - It is used to learn how to apply responsive images.
 
 ## Author
 
