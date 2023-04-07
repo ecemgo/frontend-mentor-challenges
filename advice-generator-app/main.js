@@ -13,6 +13,4 @@ async function generate() {
     });
 }
 
-button.onclick = () => {
-  generate();
-};
+button.addEventListener("click", generate);
