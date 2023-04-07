@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/advice-generator.jpg)
+![](images/advice-generator-light-mode.jpg)
 
 ### Links
 
