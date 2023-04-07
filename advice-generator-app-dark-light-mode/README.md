@@ -51,13 +51,14 @@ The `<source>` elements include a `media` attribute that contains a media condit
   <img src="elva-800w.jpg" alt="Chris standing up holding his daughter Elva" />
 </picture>
 ```
-
+https://mycolor.space/
 ### Useful resources
 
 - [Advice Slip API](https://api.adviceslip.com/) - It is used to generate random advice.
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) - It is used to learn how to apply responsive images.
 - [CSS Tricks](https://css-tricks.com/snippets/css/keyframe-animation-syntax/) - It is used for keyframe animation.
 - [Stack Overflow](https://stackoverflow.com/questions/63303763/trigger-css-animation-on-click-via-javascript) - It is used for trigger CSS animation on click.
+- [ColorSpace](https://mycolor.space/) - It is used to set colors.
 
 ## Author
 
