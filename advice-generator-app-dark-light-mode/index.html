@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="author" content="Ecem Gokdogan" />
+  <meta name="keywords" content="Frontend Mentor, Frontend, Mentor, advice generator app, advice generator github, github, pure css, html, Ecem Gokdogan, ecemgo, FrontendMentor.io, Ecem Gokdogan Frontend"/>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | Advice Generator App</title>
+</head>
+<body>
+  <main>
+    <div id="toggle">
+      <i class="indicator"></i>
+    </div>
+    <div class="container">
+      <h1 id="adviceno">Advice # 117</h1>
+      <p id="advice" class="animatedContent">"It is easy to sit up and take notice, what's difficult is getting up and taking action."</p>
+      <div class="line">
+        <picture>
+          <source media="(max-width: 419px)" srcset="images/pattern-divider-mobile.svg" />
+          <source media="(min-width: 420px)" srcset="images/pattern-divider-desktop.svg" />
+          <img src="images/pattern-divider-desktop.svg" alt="pattern divider" />
+        </picture>
+      </div>
+      <div class="btn">
+        <img src="images/icon-dice.svg" alt="">
+      </div>
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
