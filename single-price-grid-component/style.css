@@ -11,11 +11,12 @@
   --fw-400: 400;
   --fw-700: 700;
 
-  --fs-300: 0.6875rem;
-  --fs-400: 0.8125rem;
-  --fs-500: 1rem;
-  --fs-600: 1.3rem;
-  --fs-700: 1.6rem;
+  --fs-300: 0.8rem;
+  --fs-400: 1rem;
+  --fs-500: 1.2rem;
+  --fs-600: 1.5rem;
+  --fs-700: 1.8rem;
+  --fs-800: 2rem;
 }
 
 *,
@@ -27,7 +28,7 @@
 body {
   display: grid;
   place-content: center;
-  min-height: 100vh;
+  min-height: 97vh;
   font-family: var(--ff-primary);
   background-color: var(--bg-clr);
 }
@@ -51,20 +52,24 @@ main {
 .bg-neutral {
   background-color: rgb(var(--white));
   border-radius: 0.5rem 0.5rem 0 0;
-  padding: 1.5rem 2.5rem;
+  padding: 1.5rem 2.5rem 1.6rem;
 }
 
 .bg-primary {
   background-color: rgba(var(--cyan), 1);
   color: rgba(var(--white), 1);
-  padding: 1.5rem 2.5rem;
+  padding: 1.5rem 2rem 1.7rem;
 }
 
 .bg-secondary {
   background-color: rgba(var(--cyan), 0.8);
   border-radius: 0 0 0.5rem 0.5rem;
   color: rgba(var(--white), 0.9);
-  padding: 1.5rem 2.5rem;
+  padding: 1.5rem 2.5rem 1.7rem;
+}
+
+h1 {
+  margin-bottom: 1.3rem;
 }
 
 h2 {
@@ -87,11 +92,15 @@ h2 {
 }
 
 .bg-primary h2 {
-  margin-bottom: 1em;
+  margin-bottom: 1.5rem;
+}
+
+.bg-secondary h2 {
+  margin-bottom: 1.5rem;
 }
 
 .dollar {
-  font-size: var(--fs-700);
+  font-size: var(--fs-800);
   font-weight: var(--fw-700);
   margin-right: 0.7rem;
   color: rgba(var(--white), 1);
@@ -109,7 +118,8 @@ h2 {
 ul {
   padding-left: 0;
   list-style: none;
-  line-height: 1.4;
+  line-height: 1.6;
+  font-size: var(--fs-300);
 }
 
 button {
@@ -119,7 +129,7 @@ button {
   color: rgba(var(--white), 1);
   font-weight: var(--fw-700);
   font-size: var(--fs-400);
-  padding: 0.7rem 4.5rem;
+  padding: 1rem 5rem;
   margin-top: 0.6rem;
   border-radius: 0.3rem;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -128,49 +138,6 @@ button {
 
 button:hover {
   transform: scale(1.1);
-}
-
-.profile {
-  display: block;
-  border-radius: 50%;
-  width: 3em;
-  height: 3em;
-}
-
-.content {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  margin: 0.3em;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-
-.hide {
-  display: none;
-  width: auto;
-  padding: 0.5em;
-  border-radius: 1.2em;
-  font-family: Outfit;
-  transition: all 1s ease-out;
-  background: #fff;
-}
-
-.hide a {
-  text-decoration: none;
-  color: #24538a;
-  -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
-  transition: color 1s; /* For modern browsers */
-}
-
-.hide a:hover {
-  text-decoration: none;
-  color: #52ffa8;
-}
-
-.content:hover .hide {
-  display: block;
 }
 
 @media (min-width: 50em) {
