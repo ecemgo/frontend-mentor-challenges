@@ -47,24 +47,32 @@ In this project, pure CSS and flexbox were used. Flexbox is a one-dimensional la
 <div class="attribution" style="align-self: flex-end"></div>
 ```
 
-- In order to center the qr-code-box on the page and make it responsive, features of the flexbox were also used in CSS:
+- In order to center the qr-code-box on the page, flexbox is used:
 
 ```css
 .qr-code-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 ```
 
-- Additionally, the code was used to center image:
+- In order to make the card responsive, `max-width` is used
+
+```css
+.qr-code-box {
+  max-width: 20rem;
+
+```
+
+- In order to make the card responsive and the image positioned completely on the card:
 
 ```css
 .qrimg {
   width: 100%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 ```
 
