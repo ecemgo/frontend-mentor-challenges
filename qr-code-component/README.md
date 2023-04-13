@@ -35,13 +35,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 In this project, pure CSS and flexbox were used. Flexbox is a one-dimensional layout system to make web design responsive, and it provides that the elements can change their behavior depending on the kind of device displaying them. Additionally, it makes elements flexible and provides them with appropriate position, and symmetry. Thus, responsive web pages are able to be designed and built without having to use a lot of float and position properties in the CSS.
 
-- In this project, align-self was used to center the qr-code box in html:
 
-```html
-<div class="qr-code-box" style="align-self: center"></div>
-```
-
-- and align-self was also used to make the footer located at the end of the page in the html:
+- In this project, align-self is used to make the footer located at the end of the page in the html:
 
 ```html
 <div class="attribution" style="align-self: flex-end"></div>
