@@ -27,7 +27,16 @@ Users should be able to:
 
 ### Screenshot
 
+<div align="center">
+<h3>Desktop Layout</h3>
+</div>
+
 ![](assets/screenshot.jpg)
+
+<div align="center">
+<h3>Mobile Layout</h3>
+<img src="assets/screenshot-mobile.jpg" title="Pod Request Access Landing Page" alt="Pod Request Access Landing Page" width="450" height="700">
+</div>
 
 ### Links
 
