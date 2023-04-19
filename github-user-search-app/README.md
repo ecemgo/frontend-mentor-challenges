@@ -64,6 +64,7 @@ Users should be able to:
 - [Preferred Theme with Local Storage](https://stackoverflow.com/questions/73617133/how-would-i-store-user-theme-preferences-across-multiple-pages) - It is used for understanding the concept of the preferred theme with local storage.
 - [Typing Animation](https://www.youtube.com/watch?v=3qOTdDPt1Cc) - It is used for the placeholder with typing animation.
 - [Regex](https://stackoverflow.com/questions/10625497/regex-to-check-if-http-or-https-exists-in-the-string) - Regex is used to check if `http` or `https` exists in the string.
+- [CodeSandbox](https://codesandbox.io/s/github/UnTalPeluca/GitHubUserSearchApp/tree/main/?file=/style.css) - It is used for the reference.
 
 ## Author
 
