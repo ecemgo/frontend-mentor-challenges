@@ -43,7 +43,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/coding-bootcamp-testimonials-slider)
+- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/github-user-search-app)
 - [Live Site URL](https://ecemgo-github-user-search-app.netlify.app/)
 
 ## My process
