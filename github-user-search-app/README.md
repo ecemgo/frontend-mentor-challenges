@@ -29,7 +29,17 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<div align="center">
+<h3>Dark mode</h3>
+</div>
+
+![](./screenshot-dark.jpg)
+
+<div align="center">
+<h3>Light Mode</h3>
+</div>
+
+![](./screenshot-light.jpg)
 
 ### Links
 
