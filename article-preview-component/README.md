@@ -1,4 +1,4 @@
-# Frontend Mentor - Article preview component solution
+# <img src="https://user-images.githubusercontent.com/13468728/222973742-9133bdb5-61f0-4f53-8b08-bb3c349e2056.png" title="Frontend Mentor" alt="Frontend Mentor" width="50" height="50"/> Frontend Mentor - Article Preview Component Solution
 
 This is a solution to the [Article preview component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/github-user-search-app)
-- [Live Site URL](https://ecemgo-github-user-search-app.netlify.app/)
+- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/article-preview-component)
+- [Live Site URL](https://ecemgo-article-preview-component.netlify.app/)
 
 ## My process
 
