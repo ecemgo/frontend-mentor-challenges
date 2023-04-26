@@ -19,6 +19,7 @@
   --fs-300: 1rem;
   --fs-400: 1.125rem;
   --fs-500: 1.5rem;
+  --fs-600: 2rem;
   --fs-700: 3.25rem;
 }
 
@@ -134,6 +135,14 @@ button:hover {
   background-color: var(--clr-hover);
 }
 
+.submit-btn {
+  display: block;
+}
+
+.submit-btn-none-text {
+  display: none;
+}
+
 .stream {
   display: flex;
   flex-direction: row;
@@ -147,7 +156,51 @@ button:hover {
   margin-right: 2rem;
 }
 
-@media (max-width: 48rem) {
+@media (max-width: 1300px) {
+
+  .logo {
+    margin: 2% 0 5% 6%;
+  }
+  .content {
+    max-width: 40rem;
+    margin-left: 6%;
+    padding: 6rem 4rem 0 0;
+  }
+}
+
+@media (max-width: 1115px) {
+
+  body {
+    background-image: url(assets/desktop/bg-pattern-dots.svg),
+      url(assets/mobile/image-host.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right bottom 10%, right top;
+  }
+
+  .logo {
+    margin: 5% 0 5% 6%;
+  }
+  .content {
+    padding: 6rem 4rem 0 0;
+  }
+}
+
+@media (max-width: 895px) {
+
+  body {
+    background-image: url(assets/desktop/bg-pattern-dots.svg),
+      url(assets/mobile/image-host.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right bottom 20%, right top;
+  }
+
+  .content {
+    max-width: 32rem;
+  }
+}
+
+@media (max-width: 768px) {
+  
   body {
     background-image: url(assets/desktop/bg-pattern-dots.svg),
       url(assets/mobile/image-host.jpg);
@@ -171,4 +224,34 @@ button:hover {
   p {
     margin-right: 3rem;
   }
+}
+
+@media (max-width: 643px) {
+
+  .logo {
+    margin: 5% 0 50% 5%;
+  }
+
+  .content h1 {
+    font-size: var(--fs-600);
+    margin-bottom: 2rem;
+  }
+
+  input {
+    padding: 0.938rem 4rem 0.938rem 1.25rem;
+  }
+
+  button {
+    width: 5rem;
+    margin: 0 0 0 4rem;
+  }
+
+  .submit-btn {
+    display: none;
+  }
+  
+  .submit-btn-none-text {
+    display: block;
+  }
+
 }
