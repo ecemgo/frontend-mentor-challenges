@@ -37,3 +37,7 @@ In this repository, there are some solutions to [the challenges on Frontend Ment
 | 16  | [Coding Bootcamp Testimonials Slider](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/coding-bootcamp-testimonials-slider) | [View](https://www.frontendmentor.io/solutions/responsive-and-animated-coding-bootcamp-testimonials-slider-aDBpPton_w)                        |
 | 17  | [GitHub User Search App](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/github-user-search-app)              | [View](https://www.frontendmentor.io/solutions/responsive-github-user-search-app-via-pure-css-and-js-jDgRSvWcs9)                        |
 | 18  | [Article Preview Component](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/article-preview-component)              | [View](https://www.frontendmentor.io/solutions/responsive-article-preview-component-hrSakMvC2c)                        |
+| 19  | [Sunnyside Agency Landing Page](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/sunnyside-agency-landing-page)              | [View](https://www.frontendmentor.io/solutions/responsive-sunnyside-agency-landing-page-html-css-and-js-CNXvVEcuE6)                        |
+
+
+
