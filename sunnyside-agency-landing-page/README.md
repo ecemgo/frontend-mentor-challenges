@@ -13,7 +13,6 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -63,6 +62,7 @@ The `loading` attribute specifies whether a browser should load an image immedia
 ### Useful resources
 
 - [W3Schools](https://www.w3schools.com/tags/att_img_loading.asp) - It is used for HTML `<img>` loading attribute.
+- [ionicons](https://ionic.io/ionicons) - It is used for icons of social media.
 
 ## Author
 
