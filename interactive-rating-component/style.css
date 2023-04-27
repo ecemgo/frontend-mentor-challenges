@@ -1,0 +1,220 @@
+:root {
+  --bg-main: hsl(216, 12%, 8%);
+  --section-main: hsl(216, 13%, 15%);
+  --clr-accent: hsl(25, 97%, 53%);
+  --light-grey: hsl(217, 12%, 63%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --clr-border: hsl(213, 19%, 25%);
+  --white: hsl(0, 0%, 100%);
+
+  --hsl-accent: 25, 97%, 53%;
+
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  --fs-300: 0.938rem;
+  --fs-500: 1.1rem;
+  --fs-600: 1.8rem;
+}
+
+.colormode {
+    --bg-main: linear-gradient(315deg, #7fcec5 0%, #14557b 74%);
+    --section-main: hsl(210, 19%, 28%);
+    --clr-accent: hsl(154, 59%, 55%);
+    --light-grey: hsl(217, 12%, 63%);
+    --medium-grey: hsl(216, 12%, 54%);
+    --clr-border: hsl(213, 19%, 25%);
+  
+    --hsl-accent: 154, 59%, 55%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Overpass", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg-main);
+  min-height: 100vh;
+  position: relative;
+}
+
+main {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+section {
+  background: var(--section-main);
+  max-width: 420px;
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+#toggle {
+    margin-left: auto;
+    margin-bottom: 5px;
+    right: 3%;
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 25px;
+    border-radius: 25px;
+    transition: 0.5s;
+    cursor: pointer;
+    visibility: unset;
+    background: hsl(218, 23%, 16%);
+    box-shadow: inset 0 8px 60px rgba(0,0,0,0.1),
+                inset 0 8px 8px rgba(0,0,0,0.1),
+                inset 0 -4px 4px rgba(0,0,0,0.1);
+  }
+  
+  #toggle.active {
+    border: 1px solid rgba(255,255,255,0.2);
+    background: #fff;
+    box-shadow: inset 0 2px 60px rgba(0,0,0,0.1),
+                inset 0 2px 8px rgba(0,0,0,0.1),
+                inset 0 -4px 4px rgba(0,0,0,0.05);
+  }
+  
+  #toggle .indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    transform: scale (0.9);
+    background: linear-gradient(to bottom, #444, hsl(218, 23%, 16%));
+    box-shadow: 0 8px 40px rgba(0,0,0,0.5),
+                inset 0px 4px 4px rgba(255,255,255,0.2),
+                inset 0 -4px 4px rgba(255,255,255,0.2);
+    transition: 0.5s;
+  }
+  
+  #toggle.active .indicator {
+    left: 25px;
+    background: linear-gradient(to bottom, #eaeaea, #f9f9f9);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1),
+                inset 0 4px 4px rgba(255,255,255,1),
+                inset 0 -4px 4px rgba(255,255,255,1);
+  }
+
+#star {
+  background: var(--clr-border);
+  padding: 16px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: var(--white);
+  font-size: var(--fs-600);
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: var(--light-grey);
+  font-size: var(--fs-300);
+  font-weight: var(--fw-regular);
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.rating-option {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.opt {
+  background: var(--clr-border);
+  color: var(--white);
+  padding: 16px;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  margin-bottom: 32px;
+  transition: all 0.3s ease-in-out;
+}
+
+.opt:hover {
+  background: var(--medium-grey);
+}
+
+#submit-btn,
+#return-btn {
+  width: 100%;
+  background: var(--clr-accent);
+  color: var(--white);
+  font-size: var(--fs-500);
+  font-weight: var(--fw-regular);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 10px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.7s linear;
+}
+
+#submit-btn:hover,
+#return-btn:hover {
+  background: var(--white);
+  color: var(--clr-accent);
+}
+
+.state {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.info {
+  background: var(--clr-border);
+  color: hsl(var(--hsl-accent), 0.8);
+  width: max-content;
+  border-radius: 15px;
+  padding: 5px 15px 3px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.checked {
+  background-color: var(--clr-accent);
+  color: var(--white);
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Ecem Gokdogan" />
+  <meta name="keywords" content="Frontend Mentor, Frontend, Mentor, interactive rating component, interactive rating component github, github, pure css, html, html css javascript, Ecem Gokdogan, ecemgo, FrontendMentor.io, Ecem Gokdogan Frontend"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Interactive Rating Component</title>
+</head>
+<body>
+
+  <main>
+    <div id="toggle" onclick="switchTheme()">
+      <i class="indicator"></i>
+    </div>
+    <section>
+      <div class="rating">
+        <img src="images/icon-star.svg" alt="star icon" id="star">
+        <h1>How did we do?</h1>
+        <p>Please let us know how we did with your support request. All feedback is appreciated 
+          to help us improve our offering!</p>
+        <div class="rating-option">
+          <span class="opt">1</span>
+          <span class="opt">2</span>
+          <span class="opt">3</span>
+          <span class="opt">4</span>
+          <span class="opt">5</span>
+        </div>
+        <button id="submit-btn">Submit</button>
+      </div>
+
+      <div class="state hidden">
+        <img src="images/illustration-thank-you.svg" alt="illustration for thank you" id="illustration">
+        <p class="info">You selected <span id="rating"></span> out of 5</p>
+        <h1>Thank you!</h1>
+        <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+          don’t hesitate to get in touch!</p>
+        <button id="return-btn">Back to Rating</button>
+      </div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
