@@ -30,13 +30,13 @@ Users should be able to:
 <h3>Dark mode</h3>
 </div>
 
-![](./images/screenshot-dark.jpg)
+![](./screenshot-dark.jpg)
 
 <div align="center">
 <h3>Colorful Mode</h3>
 </div>
 
-![](./images/screenshot-colorful.jpg)
+![](./screenshot-colorful.jpg)
 
 ### Links
 
