@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/interactive-rating-component)
 - [Live Site URL](https://ecemgo-interactive-rating-component.netlify.app/)
 
 ## My process
