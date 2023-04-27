@@ -26,7 +26,17 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<div align="center">
+<h3>Dark mode</h3>
+</div>
+
+![](./images/screenshot-dark.jpg)
+
+<div align="center">
+<h3>Colorful Mode</h3>
+</div>
+
+![](./images/screenshot-colorful.jpg)
 
 ### Links
 
