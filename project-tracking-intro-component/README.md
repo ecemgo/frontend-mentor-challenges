@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/project-tracking-intro-component)
 - [Live Site URL](https://ecemgo-project-tracking-intro.netlify.app/)
 
 ## My process
