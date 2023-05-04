@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Ecem Gokdogan" />
+  <meta name="keywords" content="Frontend Mentor, Frontend, Mentor, intro component with sign up form, intro component with sign up form github, github, pure css, html, Ecem Gokdogan, ecemgo, FrontendMentor.io, Ecem Gokdogan Frontend"/>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro Component with Sign Up Form</title>
+
+</head>
+<body>
+
+  <header class="intro">
+    <h1>Learn to code by watching others</h1>
+    <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+      but understanding how developers think is invaluable.</p>
+  </header>
+
+  <main class="signup">
+    <button class="subscription"><span>Try it free 7 days</span> then $20/mo. thereafter</button>
+
+    <form class="form" id="form">
+      <div class="form-control">
+        <input type="text" placeholder="First Name" aria-label="first name" id="firstname">
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error message</small>
+      </div>
+      <div class="form-control">
+        <input type="text" placeholder="Last Name" aria-label="last name" id="lastname">
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error message</small>
+      </div>
+      <div class="form-control">
+        <input type="email" placeholder="Email Address" aria-label="email address" id="email">
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error message</small>
+      </div>
+      <div class="form-control">
+        <input type="password" placeholder="Password" aria-label="password" id="password">
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error message</small>
+      </div>
+    <button class="claim">Claim your free trial</button>
+    <p class="agreement">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+    </form>
+
+    <div class="message hidden">
+      <p class="submitted animated-content">Submitted! 🎉</p>
+    </div>
+  </main>
+  
+  <script src="app.js"></script>
+</body>
+</html>
