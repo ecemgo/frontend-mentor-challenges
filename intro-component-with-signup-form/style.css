@@ -16,7 +16,6 @@
   --fw-semibold: 600;
   --fw-bold: 700;
 
-  --fs-50: 0.688rem;
   --fs-100: 0.688rem;
   --fs-200: 0.875rem;
   --fs-300: 0.93rem;
@@ -172,7 +171,7 @@ form {
     color: var(--red);
     font-style: italic;
     font-weight: var(--fw-medium);
-    font-size: var(--fs-50);
+    font-size: var(--fs-100);
     line-height: 16px;
     visibility: hidden;
 }
