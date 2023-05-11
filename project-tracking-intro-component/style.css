@@ -119,7 +119,6 @@ header::after {
     font-size: var(--fs-300);
     line-height: 18px;
     letter-spacing: 1px;
-    line-height: 25px;
     text-decoration: none;
     text-transform: uppercase;
     transition: all 0.5s ease-in-out;
