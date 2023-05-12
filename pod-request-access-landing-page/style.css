@@ -144,20 +144,14 @@ button:hover {
 }
 
 .stream {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-flow: row wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2rem;
   max-width: 35rem;
   margin-top: 4.5rem;
 }
 
-.stream img {
-  margin-right: 2rem;
-}
-
 @media (max-width: 1300px) {
-
   .logo {
     margin: 2% 0 5% 6%;
   }
@@ -169,7 +163,6 @@ button:hover {
 }
 
 @media (max-width: 1115px) {
-
   body {
     background-image: url(assets/desktop/bg-pattern-dots.svg),
       url(assets/mobile/image-host.jpg);
@@ -186,7 +179,6 @@ button:hover {
 }
 
 @media (max-width: 895px) {
-
   body {
     background-image: url(assets/desktop/bg-pattern-dots.svg),
       url(assets/mobile/image-host.jpg);
@@ -200,7 +192,6 @@ button:hover {
 }
 
 @media (max-width: 768px) {
-  
   body {
     background-image: url(assets/desktop/bg-pattern-dots.svg),
       url(assets/mobile/image-host.jpg);
@@ -224,10 +215,14 @@ button:hover {
   p {
     margin-right: 3rem;
   }
+
+  .stream {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2rem;
+  }
 }
 
 @media (max-width: 643px) {
-
   .logo {
     margin: 5% 0 50% 5%;
   }
@@ -249,9 +244,8 @@ button:hover {
   .submit-btn {
     display: none;
   }
-  
+
   .submit-btn-none-text {
     display: block;
   }
-
 }
