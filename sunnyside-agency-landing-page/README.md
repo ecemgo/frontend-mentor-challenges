@@ -69,3 +69,4 @@ The `loading` attribute specifies whether a browser should load an image immedia
 - Website - [ecemgo.com](https://www.ecemgo.com/)
 - Frontend Mentor - [@ecemgo](https://www.frontendmentor.io/profile/ecemgo)
 - Twitter - [@ecemgo](https://twitter.com/ecemgo)
+- CodePen - [@ecemgo](https://codepen.io/ecemgo)
