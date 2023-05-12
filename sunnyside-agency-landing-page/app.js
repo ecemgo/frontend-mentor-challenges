@@ -4,7 +4,6 @@ const navitem = document.querySelectorAll(".nav-item");
 
 const hamburgermenu = function () {
   navbar.classList.toggle("active");
-  togglebtn.classList.toggle("active");
 };
 
 togglebtn.addEventListener("click", hamburgermenu);
