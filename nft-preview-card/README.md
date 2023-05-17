@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/nft-preview-card)
-- [Live Site URL](https://ecemgo-nft-preview-card.netlify.app/)
+- [Solution](https://www.frontendmentor.io/solutions/responsive-nft-preview-card-by-using-tailwind-css-k0tys-rxYQ)
+- [Live Site](https://ecemgo-nft-preview-card.netlify.app/)
 
 ## Working on the project
 
