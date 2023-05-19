@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/single-price-grid-component)
-- [Live Site URL](https://ecemgo-single-price-grid-component.netlify.app/)
+- [Solution](https://www.frontendmentor.io/solutions/responsive-single-price-grid-component-using-css-grid-7hHESRKctM)
+- [Live Site](https://ecemgo-single-price-grid-component.netlify.app/)
 
 ## My process
 
@@ -50,3 +50,4 @@ Users should be able to:
 - Website - [ecemgo.com](https://www.ecemgo.com/)
 - Frontend Mentor - [@ecemgo](https://www.frontendmentor.io/profile/ecemgo)
 - Twitter - [@ecemgo](https://twitter.com/ecemgo)
+- CodePen - [@ecemgo](https://codepen.io/ecemgo)

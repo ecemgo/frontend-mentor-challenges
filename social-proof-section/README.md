@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/social-proof-section)
-- [Live Site URL](https://ecemgo-social-proof.netlify.app/)
+- [Solution](https://www.frontendmentor.io/solutions/responsive-social-proof-section-using-css-grid-SrMTOkGviU)
+- [Live Site](https://ecemgo-social-proof.netlify.app/)
 
 ## My process
 
@@ -49,3 +49,4 @@ Users should be able to:
 - Website - [ecemgo.com](https://www.ecemgo.com/)
 - Frontend Mentor - [@ecemgo](https://www.frontendmentor.io/profile/ecemgo)
 - Twitter - [@ecemgo](https://twitter.com/ecemgo)
+- CodePen - [@ecemgo](https://codepen.io/ecemgo)

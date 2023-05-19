@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/faq-accordion-card)
-- [Live Site URL](https://ecemgo-faq-accordion-card.netlify.app/)
+- [Solution](https://www.frontendmentor.io/solutions/responsive-faq-accordion-card-by-using-tailwind-css-and-flexbox-5cwGSkmxwg)
+- [Live Site](https://ecemgo-faq-accordion-card.netlify.app/)
 
 ## Working on the project
 

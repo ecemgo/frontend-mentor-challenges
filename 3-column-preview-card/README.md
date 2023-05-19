@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/3-column-preview-card)
-- [Live Site URL](https://ecemgo-3-column-preview-card.netlify.app/)
+- [Solution](https://www.frontendmentor.io/solutions/responsive-preview-card-by-using-tailwind-css-IE8f1ynnis)
+- [Live Site](https://ecemgo-3-column-preview-card.netlify.app/)
 
 ## Working on the project
 

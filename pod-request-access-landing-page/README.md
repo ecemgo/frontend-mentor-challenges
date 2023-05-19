@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/pod-request-access-landing-page)
-- [Live Site URL](https://ecemgo-pod-request-access.netlify.app/)
+- [Solution](https://www.frontendmentor.io/solutions/responsive-pod-request-access-landing-page-using-email-validation-RhFiLQO8pg)
+- [Live Site](https://ecemgo-pod-request-access.netlify.app/)
 
 ## My process
 
@@ -64,3 +64,4 @@ Users should be able to:
 - Website - [ecemgo.com](https://www.ecemgo.com/)
 - Frontend Mentor - [@ecemgo](https://www.frontendmentor.io/profile/ecemgo)
 - Twitter - [@ecemgo](https://twitter.com/ecemgo)
+- CodePen - [@ecemgo](https://codepen.io/ecemgo)

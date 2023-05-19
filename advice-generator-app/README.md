@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/advice-generator-app)
-- [Live Site URL](https://ecemgo-advice-generator-app.netlify.app/)
+- [Solution](https://www.frontendmentor.io/solutions/responsive-advice-generator-app-by-using-pure-css-and-fetch-api-f0UoiGtDbA)
+- [Live Site](https://ecemgo-advice-generator-app.netlify.app/)
 
 ## My process
 

@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/base-apparel-coming-soon)
-- [Live Site URL](https://ecemgo-base-apparel-coming-soon.netlify.app/)
+- [Solution](https://www.frontendmentor.io/solutions/responsive-page-with-email-validation-and-typing-animation-CtAjvyA_hj)
+- [Live Site](https://ecemgo-base-apparel-coming-soon.netlify.app/)
 
 ## My process
 
@@ -57,3 +57,4 @@ Users should be able to:
 - Website - [ecemgo.com](https://www.ecemgo.com/)
 - Frontend Mentor - [@ecemgo](https://www.frontendmentor.io/profile/ecemgo)
 - Twitter - [@ecemgo](https://twitter.com/ecemgo)
+- CodePen - [@ecemgo](https://codepen.io/ecemgo)

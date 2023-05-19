@@ -20,8 +20,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- [Solution URL](https://github.com/ecemgo/Frontend-Mentor-Challenges/tree/main/qr-code-component)
-- [Live Site URL](https://ecemgo-qr-code-component.netlify.app/)
+- [Solution](https://www.frontendmentor.io/solutions/responsive-qr-code-box-using-vanilla-css-and-flexbox-ByUgq_WyGU)
+- [Live Site](https://ecemgo-qr-code-component.netlify.app/)
 
 ## My process
 
