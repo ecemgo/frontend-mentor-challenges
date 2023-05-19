@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/project-tracking-intro-component)
-- [Live Site URL](https://ecemgo-project-tracking-intro.netlify.app/)
+- [Solution](https://www.frontendmentor.io/solutions/responsive-project-tracking-intro-component-dtWCvyih0-)
+- [Live Site](https://ecemgo-project-tracking-intro.netlify.app/)
 
 ## My process
 
