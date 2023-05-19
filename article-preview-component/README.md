@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/article-preview-component)
-- [Live Site URL](https://ecemgo-article-preview-component.netlify.app/)
+- [Solution](https://www.frontendmentor.io/solutions/responsive-article-preview-component-hrSakMvC2c)
+- [Live Site](https://ecemgo-article-preview-component.netlify.app/)
 
 ## My process
 
