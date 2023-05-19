@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/responsive-testimonials-grid-using-css-grid-AmwJCTnhRH)
-- [Live Site URL](https://ecemgo-testimonials-grid.netlify.app/)
+- [Solution](https://www.frontendmentor.io/solutions/responsive-testimonials-grid-using-css-grid-AmwJCTnhRH)
+- [Live Site](https://ecemgo-testimonials-grid.netlify.app/)
 
 ## My process
 
