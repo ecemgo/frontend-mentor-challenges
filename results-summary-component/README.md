@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/results-summary-component)
-- [Live Site URL](https://ecemgo-result-summary-component.netlify.app/)
+- [Solution](https://www.frontendmentor.io/solutions/results-summary-component-using-css-grid-and-scrollreveal-js-vPgJ4u_JYF)
+- [Live Site](https://ecemgo-result-summary-component.netlify.app/)
 
 ## My process
 
@@ -49,3 +49,4 @@ Users should be able to:
 - Website - [ecemgo.com](https://www.ecemgo.com/)
 - Frontend Mentor - [@ecemgo](https://www.frontendmentor.io/profile/ecemgo)
 - Twitter - [@ecemgo](https://twitter.com/ecemgo)
+- CodePen - [@ecemgo](https://codepen.io/ecemgo)
