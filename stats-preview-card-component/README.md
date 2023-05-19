@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/stats-preview-card-component)
-- [Live Site URL](https://ecemgo-stats-preview-card-component.netlify.app/)
+- [Solution](https://www.frontendmentor.io/solutions/responsive-stats-preview-card-using-flexbox-and-css-grid-P2LdmThYRZ)
+- [Live Site](https://ecemgo-stats-preview-card-component.netlify.app/)
 
 ## My process
 
@@ -49,3 +49,4 @@ Users should be able to:
 - Website - [ecemgo.com](https://www.ecemgo.com/)
 - Frontend Mentor - [@ecemgo](https://www.frontendmentor.io/profile/ecemgo)
 - Twitter - [@ecemgo](https://twitter.com/ecemgo)
+- CodePen - [@ecemgo](https://codepen.io/ecemgo)
