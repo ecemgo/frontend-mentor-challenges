@@ -43,8 +43,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/github-user-search-app)
-- [Live Site URL](https://ecemgo-github-user-search-app.netlify.app/)
+- [Solution](https://www.frontendmentor.io/solutions/responsive-github-user-search-app-via-pure-css-and-js-jDgRSvWcs9)
+- [Live Site](https://ecemgo-github-user-search-app.netlify.app/)
 
 ## My process
 
