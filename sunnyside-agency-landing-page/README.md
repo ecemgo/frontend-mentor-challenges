@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/sunnyside-agency-landing-page)
-- [Live Site URL](https://ecemgo-sunnyside-agency-landing-page.netlify.app/)
+- [Solution](https://www.frontendmentor.io/solutions/responsive-sunnyside-agency-landing-page-html-css-and-js-CNXvVEcuE6)
+- [Live Site](https://ecemgo-sunnyside-agency-landing-page.netlify.app/)
 
 ## My process
 
