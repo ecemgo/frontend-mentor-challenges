@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/interactive-rating-component)
-- [Live Site URL](https://ecemgo-interactive-rating-component.netlify.app/)
+- [Solution](https://www.frontendmentor.io/solutions/interactive-rating-component-with-the-darkcolorful-theme-BtpOqZVC5B)
+- [Live Site](https://ecemgo-interactive-rating-component.netlify.app/)
 
 ## My process
 
