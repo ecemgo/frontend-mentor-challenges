@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/coding-bootcamp-testimonials-slider)
-- [Live Site URL](https://ecemgo-bootcamp-testimonials-slider.netlify.app/)
+- [Solution](https://www.frontendmentor.io/solutions/responsive-and-animated-coding-bootcamp-testimonials-slider-aDBpPton_w)
+- [Live Site](https://ecemgo-bootcamp-testimonials-slider.netlify.app/)
 
 ## My process
 
@@ -51,3 +51,4 @@ Users should be able to:
 - Website - [ecemgo.com](https://www.ecemgo.com/)
 - Frontend Mentor - [@ecemgo](https://www.frontendmentor.io/profile/ecemgo)
 - Twitter - [@ecemgo](https://twitter.com/ecemgo)
+- CodePen - [@ecemgo](https://codepen.io/ecemgo)
