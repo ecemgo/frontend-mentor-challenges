@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/intro-component-with-signup-form)
-- [Live Site URL](https://ecemgo-intro-component-signup-form.netlify.app/)
+- [Solution](https://www.frontendmentor.io/solutions/responsive-intro-component-with-sign-up-form-7r6veXulhX)
+- [Live Site](https://ecemgo-intro-component-signup-form.netlify.app/)
 
 ## My process
 
