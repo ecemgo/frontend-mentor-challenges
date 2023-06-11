@@ -71,6 +71,10 @@ In this project, pure CSS and flexbox were used. Flexbox is a one-dimensional la
 }
 ```
 
+### Lighthouse Report
+
+<img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/76056f65-fcaa-483c-ad7f-d3b1f7e33a1b" title="lighthouse report" alt="lighthouse report" width="500" height="100"/>
+
 ## Author
 
 - Website - [ecemgo.com](https://www.ecemgo.com/)
