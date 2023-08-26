@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/advice-generator-app-dark-light-mode)
-- [Live Site URL](https://advice-generator-app-dark-light-mode.netlify.app/)
+- [Solution](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/advice-generator-app-dark-light-mode)
+- [Live Site](https://advice-generator-app-dark-light-mode.netlify.app/)
 
 ### Built with
 
