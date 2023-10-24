@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+    <!-- tiny slider -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Single-page Design Portfolio</title>
+  </head>
+  <body>
+    <header role="banner">
+      <img class="logo" src="images/logo.svg" alt="logo" />
+      <button class="btn free-consultation-1">Free Consultation</button>
+    </header>
+
+    <main role="main">
+      <section class="intro">
+        <h1>Design solutions made easy</h1>
+        <p>
+          With over ten years of experience in various design disciplines, I’m
+          your one-stop shop for your design needs.
+        </p>
+
+        <div class="grid-area">
+          <div class="pattern graphic-design">
+            <img src="images/pattern-graphic-design.svg" alt="graphic-design" />
+            <p>Graphic Design</p>
+          </div>
+
+          <div class="pattern ui-ux">
+            <img src="images/pattern-ui-ux.svg" alt="ui-ux" />
+            <p>UI/UX</p>
+          </div>
+
+          <div class="pattern apps">
+            <img src="images/pattern-apps.svg" alt="apps" />
+            <p>Apps</p>
+          </div>
+
+          <div class="pattern illustration">
+            <img src="images/pattern-illustrations.svg" alt="illustration" />
+            <p>Illustrations</p>
+          </div>
+
+          <div class="pattern photography">
+            <img src="images/pattern-photography.svg" alt="photography" />
+            <p>Photography</p>
+          </div>
+
+          <div class="pattern motion-graphics">
+            <img
+              src="images/pattern-motion-graphics.svg"
+              alt="motion-graphics" />
+            <p>Motion Graphics</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <img src="images/image-amy.webp" alt="amy" />
+
+        <div class="about-info">
+          <h1>I’m Amy, and I’d love to work on your next project</h1>
+          <p>
+            I love working with others to create beautiful design solutions.
+            I’ve designed everything from brand illustrations to complete mobile
+            apps. I’m also handy with a camera!
+          </p>
+          <button class="btn free-consultation-2">Free Consultation</button>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <h1>My Work</h1>
+
+        <div class="img-slider">
+          <img src="images/image-slide-1.jpg" alt="slider" />
+          <img src="images/image-slide-2.jpg" alt="slider" />
+          <img src="images/image-slide-3.jpg" alt="slider" />
+          <img src="images/image-slide-4.jpg" alt="slider" />
+          <img src="images/image-slide-5.jpg" alt="slider" />
+        </div>
+
+        <ul class="control" id="custom-control">
+          <li class="prev">
+            <ion-icon
+              name="arrow-back-outline"
+              aria-label="previous"></ion-icon>
+          </li>
+          <li class="next">
+            <ion-icon name="arrow-forward-outline" aria-label="next"></ion-icon>
+          </li>
+        </ul>
+      </section>
+
+      <section class="booking">
+        <div class="booking-box">
+          <div class="booking-info">
+            <h1>Book a call with me</h1>
+            <p>
+              I’d love to have a chat to see how I can help you. The best first
+              step is for us to discuss your project during a free consultation.
+              Then we can move forward from there.
+            </p>
+          </div>
+          <button class="btn free-consultation-2">Free Consultation</button>
+        </div>
+      </section>
+    </main>
+
+    <footer role="contentinfo">
+      <img class="logo" src="images/logo.svg" alt="logo" />
+      <button class="btn free-consultation-1">Free Consultation</button>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
