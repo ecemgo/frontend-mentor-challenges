@@ -297,6 +297,12 @@ ion-icon {
 /* -------------- */
 /* MEDIA QUERIES */
 
+@media (max-width: 1250px) {
+  .intro > p {
+    padding: 0 120px;
+  }
+}
+
 @media (max-width: 1130px) {
   header {
     padding: 34px 90px 0;
@@ -362,7 +368,7 @@ ion-icon {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   header {
     padding: 34px 39px 0;
   }
@@ -378,13 +384,14 @@ ion-icon {
   }
 
   .intro > h1 {
-    font-size: 2.75rem;
+    font-size: 2.6rem;
     margin-bottom: 27px;
   }
 
   .intro > p {
     font-size: 1.125rem;
     margin-bottom: 64px;
+    padding: 0 50px;
   }
 
   .grid-area {
@@ -491,6 +498,7 @@ ion-icon {
     font-size: 1rem;
     line-height: 1.625rem;
     margin-bottom: 32px;
+    padding: 0 30px;
   }
 
   .pattern {
@@ -530,7 +538,7 @@ ion-icon {
 
   .about {
     gap: 40px;
-    margin-bottom: 0;
+    margin-bottom: 90px;
   }
 
   .about > img {
