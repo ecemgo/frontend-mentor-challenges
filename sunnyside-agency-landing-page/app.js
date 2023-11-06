@@ -11,3 +11,12 @@ togglebtn.addEventListener("click", hamburgermenu);
 for (let i = 0; i < navitem.length; i++) {
   navitem[i].addEventListener("click", hamburgermenu);
 }
+
+// While scrolling the window, hide the navbar
+
+window.addEventListener("scroll", () => {
+  // Check if the user has scrolled down
+  if (window.scrollY > 0) {
+    navbar.classList.remove("active");
+  }
+});
