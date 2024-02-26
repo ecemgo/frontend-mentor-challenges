@@ -14,7 +14,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
-  - [Lighthouse report](#lighthouse-report)
 - [Author](#author)
 
 ## Overview
@@ -82,10 +81,6 @@ In this project, I focused on the following features of Tailwind CSS:
 
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation) - It is used to understand the concept and apply the necessary features.
 - [Hover effect on image](https://tailwind-elements.com/docs/standard/components/hover-effects/) - It is used how to make the hover effect on the image called equilibrium.
-
-### Lighthouse report
-
-<img src="https://github.com/ecemgo/frontend-mentor-challenges/assets/13468728/4441e118-6d6d-4ad8-a598-b18d89c4443a" title="lighthouse report" alt="lighthouse report" width="500" height="100"/>
 
 ## Author
 
