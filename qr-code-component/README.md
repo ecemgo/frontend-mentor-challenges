@@ -10,7 +10,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Lighthouse report](#lighthouse-report)
 - [Author](#author)
 
 ## Overview
@@ -72,13 +71,9 @@ In this project, pure CSS and flexbox were used. Flexbox is a one-dimensional la
 }
 ```
 
-### Lighthouse report
-
-<img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/76056f65-fcaa-483c-ad7f-d3b1f7e33a1b" title="lighthouse report" alt="lighthouse report" width="500" height="100"/>
-
 ## Author
 
-- Website - [ecemgo.com](https://www.ecemgo.com/)
 - Frontend Mentor - [@ecemgo](https://www.frontendmentor.io/profile/ecemgo)
 - Twitter - [@ecemgo](https://twitter.com/ecemgo)
 - CodePen - [@ecemgo](https://codepen.io/ecemgo)
+- YouTube - [@ecemgokdogan](https://www.youtube.com/channel/UCktkPv17cw27PaFGcnZa_aQ)
