@@ -15,6 +15,10 @@ In this repository, there are some solutions to [the challenges on Frontend Ment
 -->
 
 <br>
+
+#### Note: These projects can be accessed without charge but they are not meant for unlimited use. Please ask my permission before utilizing my works on any platforms.
+
+<br>
 <p>You can reach the challenges on the Frontend Mentor and my solutions to them below.</p>
 
 |  #  | Solutions                                                                                                                                 | Challenges                                                                                                                   |
