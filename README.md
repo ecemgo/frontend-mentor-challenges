@@ -16,7 +16,7 @@ In this repository, there are some solutions to [the challenges on Frontend Ment
 
 <br>
 
-#### Note: These projects can be accessed without charge but they are not meant for unlimited use. Please ask my permission before utilizing my works on any platforms.
+#### Note: These projects can be accessed without charge but they are not meant for unlimited use. Please, do not use them in profit-making platforms and projects without permission.
 
 <br>
 
