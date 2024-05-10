@@ -26,7 +26,7 @@ Users should be able to:
 ### Screenshot
 
 <div align="left">
-<img src="https://github.com/ecemgo/frontend-mentor-challenges/assets/13468728/47752544-01ee-4d01-893b-21dbea5f9ec7" title="notifications page" alt="notifications page" width="880" height="700"/>
+<img src="https://github.com/ecemgo/frontend-mentor-challenges/assets/13468728/47752544-01ee-4d01-893b-21dbea5f9ec7" title="notifications page" alt="notifications page" width="920" height="700"/>
 </div>
 
 ### Links
