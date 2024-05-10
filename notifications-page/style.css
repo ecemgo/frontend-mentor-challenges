@@ -96,6 +96,10 @@ header {
   padding-bottom: 17px;
 }
 
+.notification-box:last-child {
+  padding-bottom: 0;
+}
+
 .new-notification {
   background: #f7fafd;
 }
@@ -176,6 +180,7 @@ header {
   padding: 17px 20px 20px;
   background-color: #fff;
   border-radius: 5px;
+  border: 1px solid #c3c3c3;
   max-width: 566px;
   font-size: 1rem;
   font-weight: 500;
