@@ -25,12 +25,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/desktop-preview.jpg)
+<div align="left">
+<img src="https://github.com/ecemgo/frontend-mentor-challenges/assets/13468728/47752544-01ee-4d01-893b-21dbea5f9ec7" title="notifications page" alt="notifications page" width="880" height="700"/>
+</div>
 
 ### Links
 
-- [Solution](https://your-solution-url.com)
-- [Live Site](https://your-live-site-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/notifications-page-only-html-css-js-AX2ANFMyLj)
+- [Live Site](https://ecemgo-notifications-page.netlify.app/)
 
 ## My process
 
@@ -43,7 +45,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [ecemgo.com](https://www.ecemgo.com/)
 - Frontend Mentor - [@ecemgo](https://www.frontendmentor.io/profile/ecemgo)
 - Twitter - [@ecemgo](https://twitter.com/ecemgo)
 - CodePen - [@ecemgo](https://codepen.io/ecemgo)
+- YouTube - [@ecemgokdogan](https://www.youtube.com/channel/UCktkPv17cw27PaFGcnZa_aQ)
