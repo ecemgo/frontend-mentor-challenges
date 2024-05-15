@@ -1,9 +1,9 @@
 const markAll = document.querySelector(".mark-all-as-read");
-const newNotifications = document.querySelectorAll(".new-notification");
+const unreadNotifications = document.querySelectorAll(".unread");
 const redPoints = document.querySelectorAll(".red-point");
 const count = document.querySelector(".count");
 
-count.innerText = newNotifications.length;
+count.innerText = unreadNotifications.length;
 
 function redPoint() {
   redPoints.forEach((e) => {
@@ -11,15 +11,28 @@ function redPoint() {
   });
 }
 
-function newNotification() {
-  newNotifications.forEach((e) => {
-    e.classList.remove("new-notification");
+function unreadMessage() {
+  unreadNotifications.forEach((e) => {
+    e.classList.remove("unread");
   });
+}
+
+function updateUnreadCount() {
+  const newUnreadNotifications = document.querySelectorAll(".unread");
+  count.innerText = newUnreadNotifications.length;
 }
 
 markAll.addEventListener("click", () => {
   redPoint();
-  newNotification();
-  const newMessages = document.querySelectorAll(".new-notification");
-  count.innerText = newMessages.length;
+  unreadMessage();
+  updateUnreadCount();
+});
+
+unreadNotifications.forEach((notificationBox) => {
+  notificationBox.addEventListener("click", () => {
+    if (notificationBox.classList.contains("unread")) {
+      notificationBox.classList.remove("unread");
+      updateUnreadCount();
+    }
+  });
 });
