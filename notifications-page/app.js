@@ -14,6 +14,10 @@ function redPoint() {
 function unreadMessage() {
   unreadNotifications.forEach((e) => {
     e.classList.remove("unread");
+    const redPoint = e.querySelector(".red-point");
+    if (redPoint) {
+      redPoint.classList.remove("red-point");
+    }
   });
 }
 
@@ -32,6 +36,10 @@ unreadNotifications.forEach((notificationBox) => {
   notificationBox.addEventListener("click", () => {
     if (notificationBox.classList.contains("unread")) {
       notificationBox.classList.remove("unread");
+      const redPoint = notificationBox.querySelector(".red-point");
+      if (redPoint) {
+        redPoint.classList.remove("red-point");
+      }
       updateUnreadCount();
     }
   });
