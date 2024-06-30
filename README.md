@@ -14,9 +14,7 @@ In this repository, there are some solutions to [the challenges on Frontend Ment
 ![Sass](https://img.shields.io/badge/-Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)&nbsp;
 -->
 
-<br>
-
-#### Note: These projects can be accessible but it is not meant for unlimited use. Please, do not use them in profit-making platforms and projects without permission.
+##### Note: This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. You may use, share, and adapt this work for non-commercial purposes, provided you give appropriate credit. For more details, visit [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).  
 
 <br>
 
