@@ -44,3 +44,13 @@ In this repository, there are some solutions to [the challenges on Frontend Ment
 | 22  | [Intro Component with Sign-up Form](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/intro-component-with-signup-form)      | [View](https://www.frontendmentor.io/solutions/responsive-intro-component-with-sign-up-form-7r6veXulhX)                      |
 | 23  | [Single-Page Design Portfolio](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/single-page-design-portfolio)               | [View](https://www.frontendmentor.io/solutions/responsive-singlepage-design-portfolio-J2KKY4ZaKH)                            |
 | 24  | [Notifications Page](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/notifications-page)                                   | [View](https://www.frontendmentor.io/solutions/notifications-page-only-html-css-js-AX2ANFMyLj)                               |
+
+
+<br>
+
+### Author
+
+- Github - [@ecemgo](https://github.com/ecemgo)
+- CodePen - [@ecemgo](https://codepen.io/ecemgo)
+- YouTube - [@ecemgokdogan](https://www.youtube.com/channel/UCktkPv17cw27PaFGcnZa_aQ)
+- Twitter - [@ecemgo](https://twitter.com/ecemgo)
