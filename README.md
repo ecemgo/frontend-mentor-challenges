@@ -9,12 +9,7 @@ In this repository, there are some solutions to [the challenges on Frontend Ment
 ![JavaScript](https://img.shields.io/badge/Javascript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)&nbsp;
 ![TailwindCSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)&nbsp;
 
-<!--
-![React](https://img.shields.io/badge/-React-%23404d59?style=for-the-badge&logo=react)&nbsp;
-![Sass](https://img.shields.io/badge/-Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)&nbsp;
--->
-
-##### Note:  These projects are licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. You may use, share, and adapt these works for non-commercial purposes, provided you give appropriate credit. For more details, visit [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).  
+##### Note: These projects are licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. You may use, share, and adapt these works for non-commercial purposes, provided you give appropriate credit. For more details, visit [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
 
 <br>
 
@@ -44,7 +39,6 @@ In this repository, there are some solutions to [the challenges on Frontend Ment
 | 22  | [Intro Component with Sign-up Form](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/intro-component-with-signup-form)      | [View](https://www.frontendmentor.io/solutions/responsive-intro-component-with-sign-up-form-7r6veXulhX)                      |
 | 23  | [Single-Page Design Portfolio](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/single-page-design-portfolio)               | [View](https://www.frontendmentor.io/solutions/responsive-singlepage-design-portfolio-J2KKY4ZaKH)                            |
 | 24  | [Notifications Page](https://github.com/ecemgo/frontend-mentor-challenges/tree/main/notifications-page)                                   | [View](https://www.frontendmentor.io/solutions/notifications-page-only-html-css-js-AX2ANFMyLj)                               |
-
 
 <br>
 
